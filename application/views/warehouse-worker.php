@@ -67,7 +67,7 @@
 					</div>
 					<!-- End Project Info Column -->
 				</div>
-				<div class="section">
+				<div class="section"   >
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 faq-wrapper">
