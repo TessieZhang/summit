@@ -44,23 +44,24 @@
 					<div class="col-sm-6">
 						<div class="portfolio-item">
 							<div class="portfolio-image">
-								<a href="#"><img src="img/delivery-driver.png" alt="Project Name"></a>
+								<img src="img/delivery-driver.png" alt="Project Name">
 							</div>
 						</div>
 					</div>
 					<!-- End Image Column -->
 					<!-- Project Info Column -->
 					<div class="portfolio-item-description col-sm-6" style="text-align:justify;">
-						<h3>Deliver Driver Description</h3>
-						<p>
-							Nowadays, many young school leavers and international students are tend to choose delivery driver as a part-time job because most of the delivery jobs are causal working time that suitable for their life. According to Transport Accident Commission (TAC), young drivers in Victoria are almost four times more likely to be involved in a fatal or serious injury crash than more experienced drivers. From 2003 to 2010, 843 workers ages 16 to 24 died in motor vehicle crashes at work. These incidents accounted for 22% of all workplace fantail in this age group. In 67% of these incidents, the young worker was driving the vehicle involved in the crash.
+						<h3>Deliver Driver</h3>
+						<p style="text-align: justify">
+							Nowadays, many young school leavers and international students are tend to choose delivery driver as a part-time job because most of the delivery jobs are causal working time that suitable for their life. According to Transport Accident Commission (TAC), young drivers in Victoria are almost four times more likely to be involved in a fatal or serious injury crash than more experienced drivers. From 2003 to 2010, 843 workers ages 16 to 24 died in motor vehicle crashes at work. These incidents accounted for 22% of all workplace fantail in this age group. In 67% of these incidents, the young worker was driving the vehicle involved in the crash. To compare the safe situation with other six
+							part-time jobs, click the button 'statistic' to see details.
 						</p>
 						<ul class="no-list-style">
 
 					<!--li class="portfolio-visit-btn"><a href="http://localhost/project/prevent-injury.php" class="btn">Visit More Jobs</a></li-->
-					<button type="button" class="btn btn-default btn-lg" id="myBtn">Statistic</button>
-					<button type="button" class="btn btn-default btn-lg" id="myBtn1-driver">Wage</button>
-					<button type="button" class="btn btn-default btn-lg" id="myBtn2">self-evaluation</button>
+					<button type="button" class="btn btn-default btn-lg" id="myBtn">Statistics</button>
+					<button type="button" class="btn btn-default btn-lg" id="myBtn1-driver">Wages</button>
+					<button type="button" class="btn btn-default btn-lg" id="myBtn2">Self-evaluation</button>
 				</ul>
 					</div>
 					<!-- End Project Info Column -->
@@ -70,7 +71,7 @@
 				<div class="row">
 					<div class="col-md-12 faq-wrapper">
 						<div class="panel-group" id="accordion2">
-							<h3>General Situation</h3>
+							<h3>Common Situation</h3>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse11">
@@ -335,7 +336,7 @@
 			</div>
 	    </div>
 				<!-- Related Projects -->
-				<h3>Related Injury</h3>
+				<h3>Treatment of Related Injury</h3>
 				<div class="row">
 					<div class="col-md-3 col-sm-6">
 						<div class="portfolio-item">
@@ -370,20 +371,41 @@
 			</div>
 		</div>
 
+
 	<div class="modal fade" id="myModal" role="dialog">
-		<div class="modal-dialog">
+		<div class="modal-dialog" style="width: 550px">
 			<!-- Modal content-->
-			<button type=”button” class=”close” id="close" data-trigger="hover"><span>&times;</span></button>
-			<div class="modal-content" style="height:450px; width:510px;" id="statistic">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div style="height:400px; width:500px;" id="statistic">
+					</div>
+				</div>
+				<div class="modal-footer text-muted ">
+					<div class="row">
+						<a href="<?php echo site_url('Welcome/newPage/statistics'); ?>" class="btn btn-default" >
+							More Statistic Details
+						</a>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
 			</div>
 		</div>
+
 	</div>
 
 	<div class="modal fade" id="salaryModal" role="dialog">
-		<div class="modal-dialog">
+		<div class="modal-dialog" style="width: 550px">
 			<!-- Modal content-->
-			<button type=”button” class=”close” id="close1" data-trigger="hover"><span>&times;</span></button>
-			<div class="modal-content" style="height:450px; width:510px;" id="statistic1">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div style="height:400px; width:500px;" id="statistic1">
+					</div>
+				</div>
+				<div class="modal-footer text-muted ">
+					<div class="row">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -398,18 +420,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="Q1">
-						<div class="col-xs-3 col-xs-offset-5">
-							<div id="loadbar1" style="display: none;">
-								<div class="blockG" id="rotateG_01"></div>
-								<div class="blockG" id="rotateG_02"></div>
-								<div class="blockG" id="rotateG_03"></div>
-								<div class="blockG" id="rotateG_04"></div>
-								<div class="blockG" id="rotateG_05"></div>
-								<div class="blockG" id="rotateG_06"></div>
-								<div class="blockG" id="rotateG_07"></div>
-								<div class="blockG" id="rotateG_08"></div>
-							</div>
-						</div>
+
 						<div class="quiz" id="quiz1" data-toggle="buttons">
 							<p id="correctAnswer1" style="display: none;">2</p>
 							<label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -435,18 +446,20 @@
 					</div>
 				</div>
 				<div class="modal-footer text-muted ">
+					<div class="row" style="padding: 10px 15px;">
+
+    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/> Crossing your legs at the knee changes the natural pelvic position and puts all the pressure on to just one of your hip muscles and stresses the sciatic nerve- both attached to your lower back. This can cause long term nerve irritation and back pain.
+		</span>
+							<span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> Crossing your legs at the knee changes the natural pelvic position and puts all the pressure on to just one of your hip muscles and stresses the sciatic nerve- both attached to your lower back. This can cause long term nerve irritation and back pain.
+		</span>
+
+						<span id="answer1K" style="float: left; text-align:justify;">The correct answer is <b>2</b>. <br/> Crossing your legs at the knee changes the natural pelvic position and puts all the pressure on to just one of your hip muscles and stresses the sciatic nerve- both attached to your lower back. This can cause long term nerve irritation and back pain.
+		</span>
+
+					</div>
 					<div class="row">
-						<div class="col-md-10">
-
-    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Crossing your legs at the knee changes the natural pelvic position and puts all the pressure on to just one of your hip muscles and stresses the sciatic nerve- both attached to your lower back. This can cause long term nerve irritation and back pain.
-		</span>
-							<span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Crossing your legs at the knee changes the natural pelvic position and puts all the pressure on to just one of your hip muscles and stresses the sciatic nerve- both attached to your lower back. This can cause long term nerve irritation and back pain.
-		</span>
-
-						</div>
-						<div class="col-md-2">
-							<button type="button" class="btn btn-default btn-lg" id="myBtn3">Next</button>
-						</div>
+						<button type="button" class="btn btn-default btn-next">Next</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
@@ -462,18 +475,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="Q1">
-						<div class="col-xs-3 col-xs-offset-5">
-							<div id="loadbar2" style="display: none;">
-								<div class="blockG" id="rotateG_01"></div>
-								<div class="blockG" id="rotateG_02"></div>
-								<div class="blockG" id="rotateG_03"></div>
-								<div class="blockG" id="rotateG_04"></div>
-								<div class="blockG" id="rotateG_05"></div>
-								<div class="blockG" id="rotateG_06"></div>
-								<div class="blockG" id="rotateG_07"></div>
-								<div class="blockG" id="rotateG_08"></div>
-							</div>
-						</div>
+
 						<div class="quiz" id="quiz2" data-toggle="buttons">
 							<p id="correctAnswer2" style="display: none;">3</p>
 							<label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -501,19 +503,21 @@
 					</div>
 				</div>
 				<div class="modal-footer text-muted ">
-					<div class="row">
-						<div class="col-md-10">
+					<div class="row" style="padding: 10px 15px;">
 
-    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Occupational injury rates are higher among youth workers. The parts of brain that control hazard identification and decision making are still growing in young workers. Lack of experience also contributes to injury rates.
+    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>3</b>. <br/>Occupational injury rates are higher among youth workers. The parts of brain that control hazard identification and decision making are still growing in young workers. Lack of experience also contributes to injury rates.
 
 		</span>
-							<span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Occupational injury rates are higher among youth workers. The parts of brain that control hazard identification and decision making are still growing in young workers. Lack of experience also contributes to injury rates.
+							<span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> <br/>Occupational injury rates are higher among youth workers. The parts of brain that control hazard identification and decision making are still growing in young workers. Lack of experience also contributes to injury rates.
 	</span>
+						<span id="answer2K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/> Occupational injury rates are higher among youth workers. The parts of brain that control hazard identification and decision making are still growing in young workers. Lack of experience also contributes to injury rates.
 
-						</div>
-						<div class="col-md-2">
-							<button type="button" class="btn btn-default btn-lg" id="finish1">Finish</button>
-						</div>
+		</span>
+
+					</div>
+					<div class="row">
+						<button type="button" class="btn btn-default btn-prev">Back</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>

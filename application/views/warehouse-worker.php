@@ -45,23 +45,24 @@
 					<div class="col-sm-6">
 						<div class="portfolio-item">
 							<div class="portfolio-image">
-								<a href="#"><img src="img/warehouse-worker.png" alt="Project Name"></a>
+								<img src="img/warehouse-worker.png" alt="Project Name">
 							</div>
 						</div>
 					</div>
 					<!-- End Image Column -->
 					<!-- Project Info Column -->
 					<div class="portfolio-item-description col-sm-6" style="text-align:justify;">
-						<h3>Warehouse Worker Description</h3>
-						<p>
-							Almost 70% of these injuries are caused by hazardous manual handling and slips, trips and falls. Avoiding proper training is the number one cause of workplace injury. The hazards faced by construction workers are many and varied.
+						<h3>Warehouse Worker</h3>
+						<p style="text-align: justify">
+							Almost 70% of these injuries are caused by hazardous manual handling and slips, trips and falls. Avoiding proper training is the number one cause of workplace injury. The hazards faced by construction workers are many and varied. To compare the safe situation with other six
+							part-time jobs, click the button 'statistic' to see details.
 						</p>
 						<ul class="no-list-style">
 
 					<!--li class="portfolio-visit-btn"><a href="http://localhost/project/prevent-injury.php" class="btn">Visit More Jobs</a></li-->
-					<button type="button" class="btn btn-default btn-lg" id="myBtn">Statistic</button>
-					<button type="button" class="btn btn-default btn-lg" id="myBtn1-warehouse">Wage</button>
-					<button type="button" class="btn btn-default btn-lg" id="myBtn2">self-evaluation</button>
+					<button type="button" class="btn btn-default btn-lg" id="myBtn">Statistics</button>
+					<button type="button" class="btn btn-default btn-lg" id="myBtn1-warehouse">Wages</button>
+					<button type="button" class="btn btn-default btn-lg" id="myBtn2">Self-evaluation</button>
 				</ul>
 					</div>
 					<!-- End Project Info Column -->
@@ -71,11 +72,11 @@
 				<div class="row">
 					<div class="col-md-12 faq-wrapper">
 						<div class="panel-group" id="accordion2">
-							<h3>General Guide</h3>
+							<h3>Common Situation</h3>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse11">
-										A guide to Manual order picking:
+										How to Manual order picking:
 									</a>
 								</div>
 								<div id="collapse11" class="accordion-body collapse in">
@@ -109,7 +110,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse12">
-										A guide to prevent Slips, trips and falls:
+										Prevent Slips, trips and falls:
 
 									</a>
 								</div>
@@ -146,7 +147,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse13">
-										A guide to prevent handling large and awkward items: 
+										Prevent handling large and awkward items:
 
 									</a>
 								</div>
@@ -193,62 +194,11 @@
 								</div>
 								
 							</div>
-
-
-
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
-									A guide to Unpacking shipping containers (Special situation)
-									</a>
-								</div>
-								<div id="collapse21" class="accordion-body collapse">
-									<div class="accordion-inner">
-										<div class="answer">Hazardous placement of container at site.</div>
-										<ul>
-										<li>
-										Place the container inside the premises. If this is not practicable, place the container away from vehicle traffic, with pedestrian exclusion zones and cones to control traffic. 
-										</li>
-										<li>
-										Containers should always be placed in designated safe locations away from overhead powerlines. 
-										</li>
-										</ul>
-									</div>
-									<div class="accordion-inner">
-										
-										</ul>
-										<div class="answer">Falls from height</div>
-										<ul>
-										<li>
-										Unpack the container from ground level.  
-										</li>
-										<li>
-										Use a finger dock or specifically designed mobile platform truck loading platform) to unpack. 
-										</li>
-										</ul>
-									</div>
-									<div class="accordion-inner">
-										<div class="answer">Falling goods </div>
-										<ul>
-										<li>
-										Secure container doors with a short rope (enough to see if the goods have shifted when the doors are partially opened). 
-										</li>
-										<li>
-										Manual handling.
-										</li>
-										<li>
-										Palletizing of goods for storage or onward transportation.
-										</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<h3>Special Situation</h3>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
 									   href="#collapse29">
-										Injuries caused by <b>repetitive work</b>
+										Injuries caused by repetitive work
 									</a>
 								</div>
 
@@ -276,6 +226,57 @@
 									</div>
 								</div>
 							</div>
+
+
+							<h3>Law and Regulation</h3>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
+										Unpacking shipping containers
+									</a>
+								</div>
+								<div id="collapse21" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="answer">Hazardous placement of container at site.</div>
+										<ul>
+											<li>
+												Place the container inside the premises. If this is not practicable, place the container away from vehicle traffic, with pedestrian exclusion zones and cones to control traffic.
+											</li>
+											<li>
+												Containers should always be placed in designated safe locations away from overhead powerlines.
+											</li>
+										</ul>
+									</div>
+									<div class="accordion-inner">
+
+										</ul>
+										<div class="answer">Falls from height</div>
+										<ul>
+											<li>
+												Unpack the container from ground level.
+											</li>
+											<li>
+												Use a finger dock or specifically designed mobile platform truck loading platform) to unpack.
+											</li>
+										</ul>
+									</div>
+									<div class="accordion-inner">
+										<div class="answer">Falling goods </div>
+										<ul>
+											<li>
+												Secure container doors with a short rope (enough to see if the goods have shifted when the doors are partially opened).
+											</li>
+											<li>
+												Manual handling.
+											</li>
+											<li>
+												Palletizing of goods for storage or onward transportation.
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse22">
@@ -354,7 +355,7 @@
 			</div>
 	    </div>
 				<!-- Related Projects -->
-				<h3>Related Injury</h3>
+				<h3>Treatment of Related Injury</h3>
 				<div class="row">
 					<div class="col-md-3 col-sm-6">
 						<div class="portfolio-item">
@@ -387,20 +388,41 @@
 			</div>
 		</div>
 
+
 	<div class="modal fade" id="myModal" role="dialog">
-		<div class="modal-dialog">
+		<div class="modal-dialog" style="width: 550px">
 			<!-- Modal content-->
-			<button type=”button” class=”close” id="close" data-trigger="hover"><span>&times;</span></button>
-			<div class="modal-content" style="height:450px; width:510px;" id="statistic">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div style="height:400px; width:500px;" id="statistic">
+					</div>
+				</div>
+				<div class="modal-footer text-muted ">
+					<div class="row">
+						<a href="<?php echo site_url('Welcome/newPage/statistics'); ?>" class="btn btn-default" >
+							More Statistic Details
+						</a>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
 			</div>
 		</div>
+
 	</div>
 
 	<div class="modal fade" id="salaryModal" role="dialog">
-		<div class="modal-dialog">
+		<div class="modal-dialog" style="width: 550px">
 			<!-- Modal content-->
-			<button type=”button” class=”close” id="close1" data-trigger="hover"><span>&times;</span></button>
-			<div class="modal-content" style="height:450px; width:510px;" id="statistic1">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div style="height:400px; width:500px;" id="statistic1">
+					</div>
+				</div>
+				<div class="modal-footer text-muted ">
+					<div class="row">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -415,18 +437,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="Q1">
-						<div class="col-xs-3 col-xs-offset-5">
-							<div id="loadbar1" style="display: none;">
-								<div class="blockG" id="rotateG_01"></div>
-								<div class="blockG" id="rotateG_02"></div>
-								<div class="blockG" id="rotateG_03"></div>
-								<div class="blockG" id="rotateG_04"></div>
-								<div class="blockG" id="rotateG_05"></div>
-								<div class="blockG" id="rotateG_06"></div>
-								<div class="blockG" id="rotateG_07"></div>
-								<div class="blockG" id="rotateG_08"></div>
-							</div>
-						</div>
+
 						<div class="quiz" id="quiz1" data-toggle="buttons">
 							<p id="correctAnswer1" style="display: none;">2</p>
 							<label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -452,19 +463,22 @@
 					</div>
 				</div>
 				<div class="modal-footer text-muted ">
+					<div class="row" style="padding: 10px 15px;">
+
+    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/>Employers can improve ergonomics in the workplace to safeguard employee health. Using mechanical assist devices (like a stocking cart with a tilted container to stock small products) to perform tasks reduces the risk of overexertion, musculoskeletal disorders, and other injuries among workers.
+
+		</span>
+							<span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> <br/>Employers can improve ergonomics in the workplace to safeguard employee health. Using mechanical assist devices (like a stocking cart with a tilted container to stock small products) to perform tasks reduces the risk of overexertion, musculoskeletal disorders, and other injuries among workers.
+		</span>
+						<span id="answer1K" style="float: left; text-align:justify;">The correct answer is <b>2</b>. <br/>Employers can improve ergonomics in the workplace to safeguard employee health. Using mechanical assist devices (like a stocking cart with a tilted container to stock small products) to perform tasks reduces the risk of overexertion, musculoskeletal disorders, and other injuries among workers.
+
+		</span>
+
+
+					</div>
 					<div class="row">
-						<div class="col-md-10">
-
-    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Employers can improve ergonomics in the workplace to safeguard employee health. Using mechanical assist devices (like a stocking cart with a tilted container to stock small products) to perform tasks reduces the risk of overexertion, musculoskeletal disorders, and other injuries among workers.
-
-		</span>
-							<span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Employers can improve ergonomics in the workplace to safeguard employee health. Using mechanical assist devices (like a stocking cart with a tilted container to stock small products) to perform tasks reduces the risk of overexertion, musculoskeletal disorders, and other injuries among workers.
-		</span>
-
-						</div>
-						<div class="col-md-2">
-							<button type="button" class="btn btn-default btn-lg" id="myBtn3">Next</button>
-						</div>
+						<button type="button" class="btn btn-default btn-next">Next</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
@@ -480,18 +494,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="Q1">
-						<div class="col-xs-3 col-xs-offset-5">
-							<div id="loadbar2" style="display: none;">
-								<div class="blockG" id="rotateG_01"></div>
-								<div class="blockG" id="rotateG_02"></div>
-								<div class="blockG" id="rotateG_03"></div>
-								<div class="blockG" id="rotateG_04"></div>
-								<div class="blockG" id="rotateG_05"></div>
-								<div class="blockG" id="rotateG_06"></div>
-								<div class="blockG" id="rotateG_07"></div>
-								<div class="blockG" id="rotateG_08"></div>
-							</div>
-						</div>
+
 						<div class="quiz" id="quiz2" data-toggle="buttons">
 							<p id="correctAnswer2" style="display: none;">3</p>
 							<label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -519,19 +522,22 @@
 					</div>
 				</div>
 				<div class="modal-footer text-muted ">
-					<div class="row">
-						<div class="col-md-10">
+					<div class="row" style="padding: 10px 15px;">
 
-    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Putting into practice an ergonomics program that deals with modifying work tasks and work environment is the most effective way to minimize back hazards.
+    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>3</b>. <br/> Putting into practice an ergonomics program that deals with modifying work tasks and work environment is the most effective way to minimize back hazards.
 
 		</span>
-							<span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Putting into practice an ergonomics program that deals with modifying work tasks and work environment is the most effective way to minimize back hazards.
+							<span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> Putting into practice an ergonomics program that deals with modifying work tasks and work environment is the most effective way to minimize back hazards.
 	</span>
+						<span id="answer2K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/> Putting into practice an ergonomics program that deals with modifying work tasks and work environment is the most effective way to minimize back hazards.
 
-						</div>
-						<div class="col-md-2">
-							<button type="button" class="btn btn-default btn-lg" id="myBtn4">Next</button>
-						</div>
+		</span>
+
+					</div>
+					<div class="row">
+						<button type="button" class="btn btn-default btn-prev">Back</button>
+						<button type="button" class="btn btn-default btn-next">Next</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
@@ -547,18 +553,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="Q1">
-						<div class="col-xs-3 col-xs-offset-5">
-							<div id="loadbar3" style="display: none;">
-								<div class="blockG" id="rotateG_01"></div>
-								<div class="blockG" id="rotateG_02"></div>
-								<div class="blockG" id="rotateG_03"></div>
-								<div class="blockG" id="rotateG_04"></div>
-								<div class="blockG" id="rotateG_05"></div>
-								<div class="blockG" id="rotateG_06"></div>
-								<div class="blockG" id="rotateG_07"></div>
-								<div class="blockG" id="rotateG_08"></div>
-							</div>
-						</div>
+
 						<div class="quiz" id="quiz3" data-toggle="buttons">
 							<p id="correctAnswer3" style="display: none;">3</p>
 							<label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -587,18 +582,20 @@
 					</div>
 				</div>
 				<div class="modal-footer text-muted ">
+					<div class="row" style="padding: 10px 15px;">
+
+    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>3</b>. <br/> Plan ahead before lifting an object. Decide in advance where the load will be placed after it has been lifted. The path in between where the load is kept and where it has to be placed should be free from obstacles. - Keep yourself close to the object you wish to lift. - Keep your feet shoulder-width apart. This gives you a solid base to support. - Bend at your knees. - Tighten the stomach muscles. - Lift the load with your leg muscles as you stand up. Leg muscles are stronger than back muscles. - Do not lift an object which is too heavy or has an awkward shape, all alone. Get help.
+</span>
+							<span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> Plan ahead before lifting an object. Decide in advance where the load will be placed after it has been lifted. The path in between where the load is kept and where it has to be placed should be free from obstacles. - Keep yourself close to the object you wish to lift. - Keep your feet shoulder-width apart. This gives you a solid base to support. - Bend at your knees. - Tighten the stomach muscles. - Lift the load with your leg muscles as you stand up. Leg muscles are stronger than back muscles. - Do not lift an object which is too heavy or has an awkward shape, all alone. Get help.
+</span>
+						<span id="answer3K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/> Plan ahead before lifting an object. Decide in advance where the load will be placed after it has been lifted. The path in between where the load is kept and where it has to be placed should be free from obstacles. - Keep yourself close to the object you wish to lift. - Keep your feet shoulder-width apart. This gives you a solid base to support. - Bend at your knees. - Tighten the stomach muscles. - Lift the load with your leg muscles as you stand up. Leg muscles are stronger than back muscles. - Do not lift an object which is too heavy or has an awkward shape, all alone. Get help.
+</span>
+
+					</div>
 					<div class="row">
-						<div class="col-md-10">
-
-    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Plan ahead before lifting an object. Decide in advance where the load will be placed after it has been lifted. The path in between where the load is kept and where it has to be placed should be free from obstacles. - Keep yourself close to the object you wish to lift. - Keep your feet shoulder-width apart. This gives you a solid base to support. - Bend at your knees. - Tighten the stomach muscles. - Lift the load with your leg muscles as you stand up. Leg muscles are stronger than back muscles. - Do not lift an object which is too heavy or has an awkward shape, all alone. Get help.
-</span>
-							<span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Plan ahead before lifting an object. Decide in advance where the load will be placed after it has been lifted. The path in between where the load is kept and where it has to be placed should be free from obstacles. - Keep yourself close to the object you wish to lift. - Keep your feet shoulder-width apart. This gives you a solid base to support. - Bend at your knees. - Tighten the stomach muscles. - Lift the load with your leg muscles as you stand up. Leg muscles are stronger than back muscles. - Do not lift an object which is too heavy or has an awkward shape, all alone. Get help.
-</span>
-
-						</div>
-						<div class="col-md-2">
-							<button type="button" class="btn btn-default btn-lg" id="myBtn5">Next</button>
-						</div>
+						<button type="button" class="btn btn-default btn-prev">Back</button>
+						<button type="button" class="btn btn-default btn-next">Next</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
@@ -614,18 +611,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="Q1">
-						<div class="col-xs-3 col-xs-offset-5">
-							<div id="loadbar4" style="display: none;">
-								<div class="blockG" id="rotateG_01"></div>
-								<div class="blockG" id="rotateG_02"></div>
-								<div class="blockG" id="rotateG_03"></div>
-								<div class="blockG" id="rotateG_04"></div>
-								<div class="blockG" id="rotateG_05"></div>
-								<div class="blockG" id="rotateG_06"></div>
-								<div class="blockG" id="rotateG_07"></div>
-								<div class="blockG" id="rotateG_08"></div>
-							</div>
-						</div>
+
 						<div class="quiz" id="quiz4" data-toggle="buttons">
 							<p id="correctAnswer4" style="display: none;">1</p>
 							<label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -654,16 +640,18 @@
 					</div>
 				</div>
 				<div class="modal-footer text-muted ">
+					<div class="row" style="padding: 10px 15px;">
+
+    <span id="answer4I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>1</b>. <br/>To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.		</span>
+							<span id="answer4C" style="float: left; text-align:justify;"><b>Correct!</b><br/> To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.		</span>
+						<span id="answer4K" style="float: left; text-align:justify;">The correct answer is <b>1</b>. <br/>To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.		</span>
+
+
+					</div>
 					<div class="row">
-						<div class="col-md-10">
-
-    <span id="answer4I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.		</span>
-							<span id="answer4C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: To lower a load, you should make use of its edge, bend your knees, keep the load close to their body, and avoid twisting your torso.		</span>
-
-						</div>
-						<div class="col-md-2">
-							<button type="button" class="btn btn-default btn-lg" id="myBtn6">Next</button>
-						</div>
+						<button type="button" class="btn btn-default btn-prev">Back</button>
+						<button type="button" class="btn btn-default btn-next">Next</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
@@ -679,18 +667,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="Q1">
-						<div class="col-xs-3 col-xs-offset-5">
-							<div id="loadbar5" style="display: none;">
-								<div class="blockG" id="rotateG_01"></div>
-								<div class="blockG" id="rotateG_02"></div>
-								<div class="blockG" id="rotateG_03"></div>
-								<div class="blockG" id="rotateG_04"></div>
-								<div class="blockG" id="rotateG_05"></div>
-								<div class="blockG" id="rotateG_06"></div>
-								<div class="blockG" id="rotateG_07"></div>
-								<div class="blockG" id="rotateG_08"></div>
-							</div>
-						</div>
+
 						<div class="quiz" id="quiz5" data-toggle="buttons">
 							<p id="correctAnswer5" style="display: none;">3</p>
 							<label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -719,16 +696,17 @@
 					</div>
 				</div>
 				<div class="modal-footer text-muted ">
+					<div class="row" style="padding: 10px 15px;">
+
+							<span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>3</b>. <br/> PMusculoskeletal injuries include bone, muscle, tendon, and other tissue injuries. Retail workers are at risk of suffering musculoskeletal injuries due to overexertion, lifting heavy objects, awkward positions, applying pressure on one part of the body, and performing the same action quickly and repeatedly (for example, scanning items at checkout).</span>
+							<span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> Musculoskeletal injuries include bone, muscle, tendon, and other tissue injuries. Retail workers are at risk of suffering musculoskeletal injuries due to overexertion, lifting heavy objects, awkward positions, applying pressure on one part of the body, and performing the same action quickly and repeatedly (for example, scanning items at checkout).</span>
+						<span id="answer5K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/> PMusculoskeletal injuries include bone, muscle, tendon, and other tissue injuries. Retail workers are at risk of suffering musculoskeletal injuries due to overexertion, lifting heavy objects, awkward positions, applying pressure on one part of the body, and performing the same action quickly and repeatedly (for example, scanning items at checkout).</span>
+
+
+					</div>
 					<div class="row">
-						<div class="col-md-10">
-
-							<span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: PMusculoskeletal injuries include bone, muscle, tendon, and other tissue injuries. Retail workers are at risk of suffering musculoskeletal injuries due to overexertion, lifting heavy objects, awkward positions, applying pressure on one part of the body, and performing the same action quickly and repeatedly (for example, scanning items at checkout).</span>
-							<span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Musculoskeletal injuries include bone, muscle, tendon, and other tissue injuries. Retail workers are at risk of suffering musculoskeletal injuries due to overexertion, lifting heavy objects, awkward positions, applying pressure on one part of the body, and performing the same action quickly and repeatedly (for example, scanning items at checkout).</span>
-
-						</div>
-						<div class="col-md-2">
-							<button type="button" class="btn btn-default btn-lg" id="finish">Finish</button>
-						</div>
+						<button type="button" class="btn btn-default btn-prev">Back</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>

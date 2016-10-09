@@ -44,36 +44,38 @@
             <div class="col-sm-6">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <a href="#"><img src="img/waiter.png" alt="Project Name"></a>
+                        <img src="img/waiter.png" alt="Project Name">
                     </div>
                 </div>
             </div>
             <!-- End Image Column -->
             <!-- Project Info Column -->
             <div class="portfolio-item-description col-sm-6">
-                <h3>Waiter Description</h3>
-                <p>
+                <h3>Waiter</h3>
+                <p style="text-align: justify">
                     Manual handling tasks are part of the job for waiters, but in certain circumstances they can be
                     hazardous and cause injuries. Employers must take action to eliminate or reduce the risk of manual
                     handling activities being hazardous to workers, usually by modifying the way a task is performed, or
-                    by providing aids and equipment that make tasks safer.
+                    by providing aids and equipment that make tasks safer. To compare the safe situation with other six
+                    part-time jobs, click the button 'statistic' to see details.
                 </p>
                 <ul class="no-list-style">
 
 
-                    <button type="button" class="btn btn-default btn-lg" id="myBtn">Statistic</button>
-                    <button type="button" class="btn btn-default btn-lg" id="myBtn1">Wage</button>
-                    <button type="button" class="btn btn-default btn-lg" id="myBtn2">self-evaluation</button>
+
+                    <button type="button" class="btn btn-default btn-lg" id="myBtn">Statistics</button>
+                    <button type="button" class="btn btn-default btn-lg" id="myBtn1">Wages</button>
+                    <button type="button" class="btn btn-default btn-lg" id="myBtn2">Self-evaluation</button>
                 </ul>
             </div>
             <!-- End Project Info Column -->
         </div>
-
+        <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 faq-wrapper">
                     <div class="panel-group" id="accordion2">
-                        <h3>General Situation</h3>
+                        <h3>Common Situation</h3>
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
@@ -91,7 +93,8 @@
                                     </ul>
                                     <div class="answer">The Most Common Injuries:</div>
                                     <ul>
-                                    <li><a href="<?php echo site_url('Welcome/newPage/cut'); ?>">Cuts and Scrapes</a></li>
+                                        <li><a href="<?php echo site_url('Welcome/newPage/cut'); ?>">Cuts and
+                                                Scrapes</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -179,26 +182,39 @@
                                     <div class="answer">To improve this situation, please:</div>
                                     <ul>
                                         <li>
-                                            Provide appropriate mechanical aids and equipment (e.g. food processors, electric can openers) and ensure they are used properly and maintained in accordance with manufacturer specifications.
+                                            Provide appropriate mechanical aids and equipment (e.g. food processors,
+                                            electric can openers) and ensure they are used properly and maintained in
+                                            accordance with manufacturer specifications.
                                         </li>
                                         <li>
-                                            Reduce repetitive movements (e.g. purchase prepared food such as peeled potatoes and sliced cheese).
+                                            Reduce repetitive movements (e.g. purchase prepared food such as peeled
+                                            potatoes and sliced cheese).
                                         </li>
                                         <li>
-                                            Design food preparation and customer service areas to limit twisting, bending and over-reaching (e.g. position frequently used equipment, food and supplies between shoulder and mid-thigh height, use sliding trays to improve access in display cases).
+                                            Design food preparation and customer service areas to limit twisting,
+                                            bending and over-reaching (e.g. position frequently used equipment, food and
+                                            supplies between shoulder and mid-thigh height, use sliding trays to improve
+                                            access in display cases).
                                         </li>
                                         <li>
-                                            Ensure employees are not exposed to repetitive work (e.g. operating espresso machines) or static positions (e.g. standing at service counter for) long periods (e.g. by using job rotation, work variation, providing sit-stand stools and anti-fatigue mats), or work that requires a significant amount of high force.
+                                            Ensure employees are not exposed to repetitive work (e.g. operating espresso
+                                            machines) or static positions (e.g. standing at service counter for) long
+                                            periods (e.g. by using job rotation, work variation, providing sit-stand
+                                            stools and anti-fatigue mats), or work that requires a significant amount of
+                                            high force.
                                         </li>
                                         <li>
-                                            Train young workers in the selection and use of any mechanical equipment and aids and safe handling methods (e.g. work is done between shoulder and mid-thigh height and with the elbows close to the body, work upright where possible).
+                                            Train young workers in the selection and use of any mechanical equipment and
+                                            aids and safe handling methods (e.g. work is done between shoulder and
+                                            mid-thigh height and with the elbows close to the body, work upright where
+                                            possible).
                                         </li>
                                     </ul>
 
                                 </div>
                             </div>
                         </div>
-                        <h3>Special Situation</h3>
+                        <h3>High-risk Situation</h3>
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
@@ -222,12 +238,12 @@
                                     </ul>
                                     <div class="answer">The Most Common Injuries:</div>
                                     <ul>
-                                        <li><a href="<?php echo site_url('Welcome/newPage/cut'); ?>">Cuts and Scrapes</a></li>
+                                        <li><a href="<?php echo site_url('Welcome/newPage/cut'); ?>">Cuts and
+                                                Scrapes</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
 
 
                         <div class="panel panel-default">
@@ -255,8 +271,9 @@
                 </div>
             </div>
         </div>
+            </div>
         <!-- Related Projects -->
-        <h3>During the work, you may meet the following injuries.</h3>
+        <h3>Treatment of Related Injury</h3>
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="portfolio-item">
@@ -310,19 +327,39 @@
 </div>
 
 <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog" style="width: 550px">
         <!-- Modal content-->
-        <button type=”button” class=”close” id="close" data-trigger="hover"><span>&times;</span></button>
-        <div class="modal-content" style="height:450px; width:510px;" id="statistic">
+        <div class="modal-content">
+        <div class="modal-header">
+            <div style="height:400px; width:500px;" id="statistic">
+            </div>
         </div>
+        <div class="modal-footer text-muted ">
+            <div class="row">
+<a href="<?php echo site_url('Welcome/newPage/statistics'); ?>" class="btn btn-default" >
+                    More Statistic Details
+</a>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+            </div>
     </div>
+
 </div>
 
 <div class="modal fade" id="salaryModal" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog" style="width: 550px">
         <!-- Modal content-->
-        <button type=”button” class=”close” id="close1" data-trigger="hover"><span>&times;</span></button>
-        <div class="modal-content" style="height:450px; width:510px;" id="statistic1">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div style="height:400px; width:500px;" id="statistic1">
+                </div>
+            </div>
+            <div class="modal-footer text-muted ">
+                <div class="row">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -339,19 +376,7 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar1" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
-                    <div class="quiz" id="quiz1" data-toggle="buttons">
+                    <div class="quiz" id="quiz" data-toggle="buttons">
                         <p id="correctAnswer1" style="display: none;">3</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
@@ -378,18 +403,20 @@
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer1I" style="float: left; text-align:justify; "><b>Incorrect!</b> The correct answer is <b>3</b>. <br/> First, make sure the area is safe and there is no risk of further injury to yourself. Secondly, Treat the burn under running water for 20 minutes. Do this straight away. This treatment is still useful up to three hours after the burn. if the burn is the size of a 20-cent piece or larger, or if it’s deep, go to hospital straight away.
+		</span>
+                    <span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> First, make sure the area is safe and there is no risk of further injury to yourself. Secondly, Treat the burn under running water for 20 minutes. Do this straight away. This treatment is still useful up to three hours after the burn. if the burn is the size of a 20-cent piece or larger, or if it’s deep, go to hospital straight away.
+		</span>
+
+                    <span id="answer1K" style="float: left; text-align:justify;"> The correct answer is <b>3</b>. <br/> First, make sure the area is safe and there is no risk of further injury to yourself. Secondly, Treat the burn under running water for 20 minutes. Do this straight away. This treatment is still useful up to three hours after the burn. if the burn is the size of a 20-cent piece or larger, or if it’s deep, go to hospital straight away.
+		</span>
+
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: First, make sure the area is safe and there is no risk of further injury to yourself. Secondly, Treat the burn under running water for 20 minutes. Do this straight away. This treatment is still useful up to three hours after the burn. if the burn is the size of a 20-cent piece or larger, or if it’s deep, go to hospital straight away.
-		</span>
-                        <span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: First, make sure the area is safe and there is no risk of further injury to yourself. Secondly, Treat the burn under running water for 20 minutes. Do this straight away. This treatment is still useful up to three hours after the burn. if the burn is the size of a 20-cent piece or larger, or if it’s deep, go to hospital straight away.
-		</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn3">Next</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -405,20 +432,8 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar2" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
                     <div class="quiz" id="quiz2" data-toggle="buttons">
-                        <p id="correctAnswer2" style="display: none;">1</p>
+                        <p id="correctAnswer2" style="display: none;" value = "1">1</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
@@ -444,21 +459,25 @@
                 </div>
             </div>
             <div class="modal-footer text-muted ">
-                <div class="row">
-                    <div class="col-md-10">
+                <div class="row" style="padding: 10px 15px;">
 
-    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: One of the key weapons in the battle to stay safe at work in a restaurant is training. From food hygiene and using the kitchen tools to manual handling and dealing with hazards, training can nip a lot of potential accidents at work in the bud.
+    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>1</b>. The One of the key weapons in the battle to stay safe at work in a restaurant is training. From food hygiene and using the kitchen tools to manual handling and dealing with hazards, training can nip a lot of potential accidents at work in the bud.
 
 		</span>
-                        <span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: One of the key weapons in the battle to stay safe at work in a restaurant is training. From food hygiene and using the kitchen tools to manual handling and dealing with hazards, training can nip a lot of potential accidents at work in the bud.
+                    <span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> One of the key weapons in the battle to stay safe at work in a restaurant is training. From food hygiene and using the kitchen tools to manual handling and dealing with hazards, training can nip a lot of potential accidents at work in the bud.
 	</span>
 
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn4">Next</button>
-                    </div>
+                    <span id="answer2K" style="float: left; text-align:justify;">The correct answer is <b>1</b>. <br/> One of the key weapons in the battle to stay safe at work in a restaurant is training. From food hygiene and using the kitchen tools to manual handling and dealing with hazards, training can nip a lot of potential accidents at work in the bud.
+	</span>
+
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -472,18 +491,6 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar3" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
                     <div class="quiz" id="quiz3" data-toggle="buttons">
                         <p id="correctAnswer3" style="display: none;">2</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -500,29 +507,33 @@
                         <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="3">3
+                                                                                                 value="4">3
                             I don't know</label>
                     </div>
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. Fire doors are often blocked open for the convenience of visitors and employees. However, this can create a break in the fire barrier leading to a fire hazard. A fire doors must not be held open or tied open by devices such as blocks, door wedges etc. They must also never be locked or blocked when employees are inside. Fire doors can only be held open by a device that automatically releases when the fire alarm is activated.
+</span>
+                    <span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> <br/>  Fire doors are often blocked open for the convenience of visitors and employees. However, this can create a break in the fire barrier leading to a fire hazard. A fire doors must not be held open or tied open by devices such as blocks, door wedges etc. They must also never be locked or blocked when employees are inside. Fire doors can only be held open by a device that automatically releases when the fire alarm is activated.
+</span>
+                    <span id="answer3K" style="float: left; text-align:justify;">The correct answer is <b>2</b>. <br/> Fire doors are often blocked open for the convenience of visitors and employees. However, this can create a break in the fire barrier leading to a fire hazard. A fire doors must not be held open or tied open by devices such as blocks, door wedges etc. They must also never be locked or blocked when employees are inside. Fire doors can only be held open by a device that automatically releases when the fire alarm is activated.
+</span>
+
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Fire doors are often blocked open for the convenience of visitors and employees. However, this can create a break in the fire barrier leading to a fire hazard. A fire doors must not be held open or tied open by devices such as blocks, door wedges etc. They must also never be locked or blocked when employees are inside. Fire doors can only be held open by a device that automatically releases when the fire alarm is activated.
-</span>
-                        <span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Fire doors are often blocked open for the convenience of visitors and employees. However, this can create a break in the fire barrier leading to a fire hazard. A fire doors must not be held open or tied open by devices such as blocks, door wedges etc. They must also never be locked or blocked when employees are inside. Fire doors can only be held open by a device that automatically releases when the fire alarm is activated.
-</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn5">Next</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
+
 
 <div class="modal fade" id="myModal4" role="dialog">
     <div class="modal-dialog">
@@ -533,18 +544,6 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar4" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
                     <div class="quiz" id="quiz4" data-toggle="buttons">
                         <p id="correctAnswer4" style="display: none;">1</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -561,29 +560,36 @@
                         <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="3">3
+                                                                                                 value="4">3
                             I don't know</label>
                     </div>
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer4I" style="float: left; text-align:justify; margin-bottom: 20px;"><b>Incorrect!</b> The correct answer is <b>1</b>.<br/>Reporting such “no-victim” accidents will allow management to make changes to procedure and compliance in order to avoid the incident from reoccurring, and hurting people in future.
+		</span>
+                    <span id="answer4C"
+                          style="float: left; text-align:justify; margin-bottom: 20px;"><b>Correct!</b> <br/> Reporting such “no-victim” accidents will allow management to make changes to procedure and compliance in order to avoid the incident from reoccurring, and hurting people in future.
+		</span>
+                    <span id="answer4K"
+                          style="float: left; text-align:justify; margin-bottom: 20px;">The correct answer is <b>1</b>.<br/> Reporting such “no-victim” accidents will allow management to make changes to procedure and compliance in order to avoid the incident from reoccurring, and hurting people in future.
+		</span>
+
+
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer4I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Reporting such “no-victim” accidents will allow management to make changes to procedure and compliance in order to avoid the incident from reoccurring, and hurting people in future.
-		</span>
-                        <span id="answer4C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Reporting such “no-victim” accidents will allow management to make changes to procedure and compliance in order to avoid the incident from reoccurring, and hurting people in future.
-		</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn6">Next</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 <div class="modal fade" id="myModal5" role="dialog">
     <div class="modal-dialog">
@@ -594,24 +600,13 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar5" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
                     <div class="quiz" id="quiz5" data-toggle="buttons">
                         <p id="correctAnswer5" style="display: none;">2</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="1">1 Cautiousness
+                                                                                                 value="1">1
+                            Cautiousness
                         </label>
                         <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
@@ -622,22 +617,22 @@
                         <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="3">3
+                                                                                                 value="4">3
                             I don't know</label>
                     </div>
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+                    <span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/> Poor vision can greatly increase one’s chances of falling. Moreover, distractions can cause slips, trips, or falls as a result of a step, crack, or hole in the floor, ground, road etc.</span>
+                    <span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> Poor vision can greatly increase one’s chances of falling. Moreover, distractions can cause slips, trips, or falls as a result of a step, crack, or hole in the floor, ground, road etc.</span>
+
+                    <span id="answer5K" style="float: left; text-align:justify;">The correct answer is <b>1</b>.  <br/>Explanation: Poor vision can greatly increase one’s chances of falling. Moreover, distractions can cause slips, trips, or falls as a result of a step, crack, or hole in the floor, ground, road etc.</span>
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Poor vision can greatly increase one’s chances of falling. Moreover, distractions can cause slips, trips, or falls as a result of a step, crack, or hole in the floor, ground, road etc.</span>
-                        <span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Poor vision can greatly increase one’s chances of falling. Moreover, distractions can cause slips, trips, or falls as a result of a step, crack, or hole in the floor, ground, road etc.</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="finish">Finish</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

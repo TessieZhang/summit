@@ -36,6 +36,7 @@
                     <li>usually works regular hours each week.</li>
                     <li>is entitled to the same benefits as a full-time employee, but on a pro rata basis.</li>
                     <li>is a permanent employee or on a fixed-term contract.</li>
+                    <li><a href="<?php echo ('https://www.fairwork.gov.au'); ?>">See more details.</a></li>
                 </ul>
             </div>
         </div>
@@ -50,6 +51,7 @@
                 <p>
                     Full-time employees work longer hours. On average, they work 38 hours per week.
                     Casual employees usually work irregular hours but they don’t get paid sick leave or annual leave.
+                    Part-time employees get the same minimum entitlements (such as sick leave and holiday leave) as a full-time employee, based on how many hours they work each week.
                 </p>
             </div>
         </div>
@@ -60,9 +62,10 @@
                 </div>
             </div>
             <div class="col-sm-8">
-                <h3>What part-time employees get</h3>
+                <h3>Part-time Worker Consultation</h3>
                 <p>
-                    Part-time employees get the same minimum entitlements (such as sick leave and holiday leave) as a full-time employee, based on how many hours they work each week.
+                    A safe workplace is more easily achieved when employers and employees talk to each other about potential problems and work together to find solution. Employees can be consulted in a variety of ways, including by setting up a health and safety committee or by holding regular meetings.
+                    <a href="<?php echo ('http://www.worksafe.vic.gov.au/safety-and-prevention/health-and-safety-topics/consultation'); ?>">See more details.</a>
                 </p>
             </div>
         </div>

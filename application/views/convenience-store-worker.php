@@ -44,15 +44,15 @@
                 <div class="col-sm-6">
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <a href="#"><img src="img/worker.png" alt="Project Name"></a>
+                            <img src="img/worker.png" alt="Project Name">
                         </div>
                     </div>
                 </div>
                 <!-- End Image Column -->
                 <!-- Project Info Column -->
                 <div class="portfolio-item-description col-sm-6" style="text-align:justify;">
-                    <h3>Convenience Store Worker Description</h3>
-                    <p>
+                    <h3>Convenience Store Worker</h3>
+                    <p style="text-align: justify">
                         Convenience stores are unique commercial properties in that they are usually open 24-hours, are
                         largely a cash-based business, can be operated by one clerk, and are conveniently located for quick
                         in and out shopping. The nature of this business makes it very convenient for customers.
@@ -60,7 +60,7 @@
                         criminals. Since 1976, the convenience store industry has made major strides toward preventing and
                         deterring robberies.
                     </p>
-                    <p>
+                    <p style="text-align: justify">
                         The number of robberies at convenience stores has increased across the country. Nowadays, The
                         evolution of gas stations to 24 hour convenience stores has also spawned different security needs.
                         Because there is a greater crime risk from dusk until dawn, convenience store owners need to be
@@ -69,9 +69,9 @@
                     <ul class="no-list-style">
 
                         <!--li class="portfolio-visit-btn"><a href="http://localhost/project/prevent-injury.php" class="btn">Visit More Jobs</a></li-->
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn">Statistic</button>
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn1-convenience">Wage</button>
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn2">self-evaluation</button>
+                        <button type="button" class="btn btn-default btn-lg" id="myBtn">Statistics</button>
+                        <button type="button" class="btn btn-default btn-lg" id="myBtn1-convenience">Wages</button>
+                        <button type="button" class="btn btn-default btn-lg" id="myBtn2">Self-evaluation</button>
                     </ul>
                 </div>
 
@@ -82,15 +82,12 @@
                     <div class="row">
                         <div class="col-md-12 faq-wrapper">
                             <div class="panel-group" id="accordion2">
-                                <h3>General Information</h3>
+                                <h3>Common Situation</h3>
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                            href="#collapse11">
-                                            <b>Access control: </b>a way to limit the number of people who should not be on
-                                            the property. The property and store are designed for convenience to customers,
-                                            but do not make it too convenient for criminals.
-
+                                            Overexertion and musculoskeletal injuries
                                         </a>
                                     </div>
                                     <div id="collapse11" class="accordion-body collapse in">
@@ -98,18 +95,10 @@
                                             <div class="answer">Notice:</div>
                                             <ul>
                                                 <li>
-                                                    Limit the number of entrances and exits to the store and the parking
-                                                    lot.
+                                                    Sometimes the signs and symptoms come on suddenly as in the case of a pulled muscle or sudden back pain. Sometimes they are cumulative and develop gradually over time. MSIs are so common that almost every job has some risk, and most people ignore the symptoms, hoping they’ll just go away, until they turn into serious, even permanent, problems.
                                                 </li>
                                                 <li>
-                                                    Close off some parking lot entrances and doors at night.
-                                                </li>
-                                                <li>
-                                                    Consider installing gates, locks or turnstiles, if necessary.
-                                                </li>
-                                                <li>
-                                                    Switch to the prepaid method at night if your store includes a petrol
-                                                    station
+                                                    Workers need to be shown proper techniques for lifting and carrying. Do short on-the-job training sessions to demonstrate how to lift and carry items that are relevant to your store. Get staff to participate! The following tips can be used in your training sessions, including lifting, carrying, unloading, and coordinated lifting, etc.
                                                 </li>
                                             </ul>
                                         </div>
@@ -119,8 +108,7 @@
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                            href="#collapse12">
-                                            <b>Surveillance:</b> the use of physical features, such as electrical and
-                                            mechanical devices, to maximize visibility.
+                                            Fractures and bruises
 
                                         </a>
                                     </div>
@@ -129,60 +117,43 @@
                                             <div class="answer">Notice:</div>
                                             <ul>
                                                 <li>
-                                                    Use effective lighting both on the lot and in the store.
+                                                    Fractures and bruises are very common injuries in the retail sector and most often happen as a result of tripping, slipping and falling on the floor. Getting hit by falling or moving objects is also a significant cause of broken bones and bruises.
                                                 </li>
                                                 <li>
-                                                    Remove signs from windows to provide clear lines of visibility to the
-                                                    cashier.
+                                                    Often taking some “common-sense” steps to avoid situations where people are likely to trip, slip and fall, making sure that the work area is kept tidy, and that stored items and displays are secure, can prevent these injuries.
                                                 </li>
                                                 <li>
-                                                    Move displays that block visibility to the cashier from the outside.
-                                                </li>
-                                                <li>
-                                                    Be alert to your surroundings and report any problems.
+                                                    A short information session with staff is a useful way to create awareness. Consider, for example, taking staff for a quick tour of the store and asking them to point out anything that might be a tripping or slipping hazard. The following tips can be used to help tailor your training.
                                                 </li>
                                             </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h3>How To Deal With Hazards When Robbery?</h3>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-                                           href="#collapse21">
-                                            Robbery deterrence measures
-                                        </a>
-                                    </div>
-                                    <div id="collapse21" class="accordion-body collapse">
-                                        <div class="accordion-inner">
-                                            <div class="answer">Notice:</div>
-                                            <p>First things first, under any circumstances, do not confront the robber. Even
-                                                if you think you can overpower them, you could be putting yourself in
-                                                danger.</p>
                                             <div class="answer">The Most Common Injuries:</div>
                                             <ul>
-                                                <li><a href="<?php echo site_url('Welcome/newPage/cut'); ?>">Cuts and Scrapes</a></li>
+                                                <li><a href="<?php echo site_url('Welcome/newPage/fall'); ?>">Fall</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                            href="#collapse22">
-                                            Avoid violence during a robbery
+                                            Repetitive strain injuries
                                         </a>
                                     </div>
-
                                     <div id="collapse22" class="accordion-body collapse">
                                         <div class="accordion-inner">
                                             <div class="answer">Notice:</div>
-                                            <p>Don't panic to use panic buttons, if the Panic Button is pushed too soon, you
-                                                could be triggering a hostage situation if the police show up during the
-                                                robbery. Also, if the robber sees you going for the button, that could put
-                                                yourself in danger.</p>
+                                            <ul>
+                                                <li>
+                                                    Break up repetitive work by varying the tasks.
+                                                </li>
+                                                <li>
+                                                    Slow down the pace of work so that the body can recover between movements.
+                                                </li>
+                                                <li>
+                                                    Introduce repetitive tasks gradually so that workers have a chance to develop enough muscle strength to protect themselves.
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -190,31 +161,123 @@
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                            href="#collapse23">
-                                            What to do after a robbery
+                                            Cuts
                                         </a>
                                     </div>
-
                                     <div id="collapse23" class="accordion-body collapse">
                                         <div class="accordion-inner">
                                             <div class="answer">Notice:</div>
-                                            <p>If you have a panic button in the store, after the robbery is the time to
-                                                press it to alert authorities. You’ll also want to look at the height strips
-                                                as the robber leaves the store for the incident report. Take down notes
-                                                about the incident and description of the criminal.</p>
-                                            <div class="answer">The Most Common Injuries:</div>
+                                            <ul>
+                                                <li>Every year, many workers in the retail industry experience cuts and lacerations ranging from minor scrapes to serious wounds requiring emergency medical attention and time off work. Very often, these injuries happen while workers are using cutting tools like box cutters and knives. Spend 10 or 15 minutes with staff to demonstrate proper techniques for opening boxes, crates, or any other tasks requiring the use of cutting tools.
+                                                </li>
+                                            </ul>
+                                                <div class="answer">The Most Common Injuries:</div>
                                             <ul>
                                                 <li><a href="<?php echo site_url('Welcome/newPage/cut'); ?>">Cuts and Scrapes</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <h3>Other potentially dangerous situations</h3>
+                                <h3>High-risk Situation</h3>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+                                           href="#collapse21">
+                                            Cash Handling
+                                        </a>
+                                    </div>
+                                    <div id="collapse21" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <div class="answer">Notice:</div>
+                                            <ul>
+                                                <li>
+                                                    Keep the cash register fund to a minimum.
+                                                </li>
+                                                <li>
+                                                    Use a drop safe with a time lock on it. Don’t hide money in a drawer or under the counter.
+                                                </li>
+                                                <li>
+                                                    Encourage credit or debit card payments.
+                                                </li>
+                                                <li>
+                                                    Vary the time of day that the cash register is emptied.
+                                                </li>
+                                                <li>
+                                                    Only operate one register late at night through early morning. Open the unused register drawer and tip it for display.
+                                                </li>
+                                                <li>
+                                                    Store extra lottery tickets and tobacco products in the time lock safe when they are not needed.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+                                           href="#collapse32">
+                                            Visibility and Store Layout
+                                        </a>
+                                    </div>
+
+                                    <div id="collapse32" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <div class="answer">Notice:</div>
+                                            <ul>
+                                                <li>
+                                                    Put the cash register where it can be seen by people inside and outside the store.
+                                                </li>
+                                                <li>
+                                                    Don’t put the cash register near the exit or entrance.
+                                                </li>
+                                                <li>
+                                                    Keep shelves low for good visibility inside the store.
+                                                </li>
+                                                <li>
+                                                    Keep the shelves tidy.
+                                                </li>
+                                                <li>
+                                                    Install mirrors so that all areas of the store can be seen from the sales counter.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+                                           href="#collapse33">
+                                            Limit Access Routes and Hiding Places
+                                        </a>
+                                    </div>
+
+                                    <div id="collapse33" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <div class="answer">Notice:</div>
+                                            <ul>
+                                                <li>
+                                                    Keep back and side doors locked to minimize escape routes and keep people from entering the store unnoticed.
+                                                </li>
+                                                <li>
+                                                    At night, remove large signs and displays that could provide hiding places.
+                                                </li>
+                                                <li>
+                                                    Do not use the back entrances to let people in.
+                                                </li>
+                                                <li>
+                                                    Do not leave by exiting into poorly lit, unobserved areas.
+                                                </li>
+                                            </ul>
+                                            </div>
+                                    </div>
+                                </div>
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                            href="#collapse24">
-                                            <b>Cash management system:</b> Minimize cash available at your store can reduce
-                                            the risk of robbery. The program will address deterrents
+                                            Surveillance
                                         </a>
                                     </div>
 
@@ -223,27 +286,27 @@
                                             <div class="answer">Notice:</div>
                                             <ul>
                                                 <li>
-                                                    Using a drop safe
+                                                    Use surveillance monitoring equipment.
                                                 </li>
                                                 <li>
-                                                    Posting signs stating that the amount of cash on hand is limited
+                                                    Put up a sign advertising the fact that the premises are monitored by video surveillance.
                                                 </li>
                                                 <li>
-                                                    Keeping cash in registers low
+                                                    Use CCTV monitors and cameras. These should be visible to customers.
+                                                </li>
+                                                <li>
+                                                    Install a “panic button” at the sales counter.
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                            href="#collapse25">
-                                            <b>Visibility:</b> Criminals seek out locations where they can't be easily
-                                            noticed by bystanders outside the store, or by employees entering the store.
-                                            People outside the store, including police, should be able to see into the
-                                            store, and employees should be able to see their surroundings.
-
+                                            If There is a Robbery
                                         </a>
                                     </div>
 
@@ -252,24 +315,25 @@
                                             <div class="answer">Notice:</div>
                                             <ul>
                                                 <li>
-                                                    Keep windows clear of signs and merchandise
+                                                    Obey the robber’s orders - Let the robber know you intend to cooperate. Hand over cash and merchandise and do exactly as the robber says. If you are not sure what the robber is telling you, ask. Don't argue
                                                 </li>
                                                 <li>
-                                                    Keep shelving units low so there are no hiding places within the store
+                                                    Tell the robber about any possible surprises — Tell the robber before reaching for anything or moving in any way. Tell the robber if another person is in the back room so the robber will not be startled.
                                                 </li>
                                                 <li>
-                                                    Keeping cash in registers low
+                                                    Stay calm - Handle the entire situation as if you were making a sale to a customer. Try to pay attention to what the robber is wearing, and what he or she looks like. Try to note the robber’s height on the height marker as soon as he or she leaves.
+                                                </li>
+                                                <li>
+                                                    Don’t try to stop the robber — Trying to fight with a robber is foolish. Even if you don’t see a weapon, always assume the robber has one.
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="panel panel-default">
+                                </div><div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                            href="#collapse26">
-                                            <b>Escape Routes</b>
-
+                                            After the robber leaves
                                         </a>
                                     </div>
 
@@ -278,10 +342,20 @@
                                             <div class="answer">Notice:</div>
                                             <ul>
                                                 <li>
-                                                    Criminals want to blend into the surroundings after committing crimes. Make blending in more difficult by fencing the property and limiting the number of entrances and exits and making exit routes visible to others.
-
+                                                    Don’t chase or follow the robber — This will only invite violence, and it may confuse the police as to who is involved with the robbery.
                                                 </li>
-
+                                                <li>
+                                                    Write down information immediately — As soon as the robber has left, make notes about their appearance, mannerisms, and specific features, as well as the time and the direction they took when they left. If possible, get a description of their vehicle and write down the license plate number, but never leave the safety of the premises or follow a vehicle to do so!
+                                                </li>
+                                                <li>
+                                                    Call the police — Dial 0-0-0 as soon as it is safe to do so. Don’t hang up until they tell you to.
+                                                </li>
+                                                <li>
+                                                    Lock the doors and protect the crime scene. Discontinue business until the police are finished. Don’t touch any evidence.
+                                                </li>
+                                                <li>
+                                                    Call your employer as soon as possible and write a report describing the robbery and include all the information you can.
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -292,7 +366,7 @@
                 </div>
             </div>
             <!-- Related Projects -->
-            <h3>Related Injury</h3>
+            <h3>Treatment of Related Injury</h3>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="portfolio-item">
@@ -329,23 +403,44 @@
         </div>
     </div>
 
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal content-->
-        <button type=”button” class=”close” id="close" data-trigger="hover"><span>&times;</span></button>
-        <div class="modal-content" style="height:450px; width:510px;" id="statistic">
-        </div>
-    </div>
-</div>
 
-<div class="modal fade" id="salaryModal" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal content-->
-        <button type=”button” class=”close” id="close1" data-trigger="hover"><span>&times;</span></button>
-        <div class="modal-content" style="height:450px; width:510px;" id="statistic1">
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog" style="width: 550px">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div style="height:400px; width:500px;" id="statistic">
+                    </div>
+                </div>
+                <div class="modal-footer text-muted ">
+                    <div class="row">
+                        <a href="<?php echo site_url('Welcome/newPage/statistics'); ?>" class="btn btn-default" >
+                            More Statistic Details
+                        </a>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="salaryModal" role="dialog">
+        <div class="modal-dialog" style="width: 550px">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div style="height:400px; width:500px;" id="statistic1">
+                    </div>
+                </div>
+                <div class="modal-footer text-muted ">
+                    <div class="row">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
 
 <div class="modal fade" id="myModal1" role="dialog">
@@ -357,18 +452,7 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar1" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
+
                     <div class="quiz" id="quiz1" data-toggle="buttons">
                         <p id="correctAnswer1" style="display: none;">3</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -395,18 +479,19 @@
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>3</b>. <br/> The risk of crowd related injuries are high during sales and discount seasons. Proper crowd management and pre-planning ensures reduced risk. It is best to plan in advance for special sale days or promotional events. Hire trained staff, install barricades, post visible signs, and prepare an emergency action plan. Announce the entrance process and other safety measures to the public, and spread sale items all over the store to avoid concentrating the crowd in one place.
+		</span>
+                        <span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> <br/>The risk of crowd related injuries are high during sales and discount seasons. Proper crowd management and pre-planning ensures reduced risk. It is best to plan in advance for special sale days or promotional events. Hire trained staff, install barricades, post visible signs, and prepare an emergency action plan. Announce the entrance process and other safety measures to the public, and spread sale items all over the store to avoid concentrating the crowd in one place.
+		</span>
+                    <span id="answer1K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/> The risk of crowd related injuries are high during sales and discount seasons. Proper crowd management and pre-planning ensures reduced risk. It is best to plan in advance for special sale days or promotional events. Hire trained staff, install barricades, post visible signs, and prepare an emergency action plan. Announce the entrance process and other safety measures to the public, and spread sale items all over the store to avoid concentrating the crowd in one place.
+		</span>
+
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: The risk of crowd related injuries are high during sales and discount seasons. Proper crowd management and pre-planning ensures reduced risk. It is best to plan in advance for special sale days or promotional events. Hire trained staff, install barricades, post visible signs, and prepare an emergency action plan. Announce the entrance process and other safety measures to the public, and spread sale items all over the store to avoid concentrating the crowd in one place.
-		</span>
-                        <span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: The risk of crowd related injuries are high during sales and discount seasons. Proper crowd management and pre-planning ensures reduced risk. It is best to plan in advance for special sale days or promotional events. Hire trained staff, install barricades, post visible signs, and prepare an emergency action plan. Announce the entrance process and other safety measures to the public, and spread sale items all over the store to avoid concentrating the crowd in one place.
-		</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn3">Next</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -422,18 +507,7 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar2" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
+
                     <div class="quiz" id="quiz2" data-toggle="buttons">
                         <p id="correctAnswer2" style="display: none;">2</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -461,18 +535,20 @@
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/> Along with the responsibility to follow safe work practices, workers are also entitled to several rights ensuring their safety. Retail workers have the right to receive training in safe work practices. They also have the right to supervision to minimize risk and the right to take part in matters related to health and safety.
+	</span>
+                        <span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> Along with the responsibility to follow safe work practices, workers are also entitled to several rights ensuring their safety. Retail workers have the right to receive training in safe work practices. They also have the right to supervision to minimize risk and the right to take part in matters related to health and safety.
+	</span>
+                    <span id="answer2K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/> Along with the responsibility to follow safe work practices, workers are also entitled to several rights ensuring their safety. Retail workers have the right to receive training in safe work practices. They also have the right to supervision to minimize risk and the right to take part in matters related to health and safety.
+	</span>
+
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Along with the responsibility to follow safe work practices, workers are also entitled to several rights ensuring their safety. Retail workers have the right to receive training in safe work practices. They also have the right to supervision to minimize risk and the right to take part in matters related to health and safety.
-	</span>
-                        <span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Along with the responsibility to follow safe work practices, workers are also entitled to several rights ensuring their safety. Retail workers have the right to receive training in safe work practices. They also have the right to supervision to minimize risk and the right to take part in matters related to health and safety.
-	</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn4">Next</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -484,37 +560,27 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h3 style="line-height: 150%; text-align:justify;"><span class="label label-warning" id="qid">3</span>
-                    Which one is a normal procedure to <b>reduce</b> the risk of injury from manual tasks?</h3>
+                    What thing you should <b>NOT</b> do if you are facing robbery in your store?</h3>
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar3" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
+
                     <div class="quiz" id="quiz3" data-toggle="buttons">
-                        <p id="correctAnswer3" style="display: none;">3</p>
+                        <p id="correctAnswer3" style="display: none;">2</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="1">1 1. Hazard identification, 2. Risk assessment, 3.risk control and 4. follow up and review         </label>
+                                                                                                 value="1">1 Obey the robber’s order    </label>
                         <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="2">2 1. Hazard identification, 2. risk control, 3. risk assessment, and 4. follows up and review
+                                                                                                 value="2">2 Try to Stop the robber
+
                         </label>
                         <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="3">3 1. Hazard identification, 2. follow up and review, 3. risk assessment, and 4. risk control
+                                                                                                 value="3">3 Tell the robber about any possible surprises
                         </label>
 
                         <label class="element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -526,18 +592,17 @@
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/>Don't try to stop the robber, handle the entire situation as if you were making a sale to a customer. Try to pay attention to what the robber is wearing, and what he or she looks like. Try to note the robber’s height on the height marker as soon as he or she leaves</span>
+                        <span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> <br/>Don't try to stop the robber, handle the entire situation as if you were making a sale to a customer. Try to pay attention to what the robber is wearing, and what he or she looks like. Try to note the robber’s height on the height marker as soon as he or she leaves</span>
+
+                    <span id="answer3K" style="float: left; text-align:justify;">The correct answer is <b>2</b>. <br/>Don't try to stop the robber, handle the entire situation as if you were making a sale to a customer. Try to pay attention to what the robber is wearing, and what he or she looks like. Try to note the robber’s height on the height marker as soon as he or she leaves</span>
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: There are three steps process to reduce the risk of injury from manual tasks follow up the review at the end. As an employee, you need to identify hazardous manual task at first. Secondly, assess the risks arising from the identified hazardous manual tasks, and lastly you should able to decide on the use of appropriate control measures.
-</span>
-                        <span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: There are three steps process to reduce the risk of injury from manual tasks follow up the review at the end. As an employee, you need to identify hazardous manual task at first. Secondly, assess the risks arising from the identified hazardous manual tasks, and lastly you should able to decide on the use of appropriate control measures.
-</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn5">Next</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -553,18 +618,7 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar4" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
+
                     <div class="quiz" id="quiz4" data-toggle="buttons">
                         <p id="correctAnswer4" style="display: none;">1</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -581,22 +635,23 @@
                         <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="3">3
+                                                                                                 value="4">3
                             I don't know</label>
                     </div>
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer4I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>1</b>. <br/> A worker has a legal right to refuse to work if he/she believes that the working conditions are unsafe. It is essential to bring the hazardous situation to the employer’s notice immediately.	</span>
+                        <span id="answer4C" style="float: left; text-align:justify;"><b>Correct!</b>  A worker has a legal right to refuse to work if he/she believes that the working conditions are unsafe. It is essential to bring the hazardous situation to the employer’s notice immediately.	</span>
+                    <span id="answer4K" style="float: left; text-align:justify;">The correct answer is <b>1</b>. <br/> A worker has a legal right to refuse to work if he/she believes that the working conditions are unsafe. It is essential to bring the hazardous situation to the employer’s notice immediately.	</span>
+
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-    <span id="answer4I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: A worker has a legal right to refuse to work if he/she believes that the working conditions are unsafe. It is essential to bring the hazardous situation to the employer’s notice immediately.	</span>
-                        <span id="answer4C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: A worker has a legal right to refuse to work if he/she believes that the working conditions are unsafe. It is essential to bring the hazardous situation to the employer’s notice immediately.	</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn6">Next</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default btn-next">Next</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -612,20 +667,9 @@
             </div>
             <div class="modal-body">
                 <div id="Q1">
-                    <div class="col-xs-3 col-xs-offset-5">
-                        <div id="loadbar5" style="display: none;">
-                            <div class="blockG" id="rotateG_01"></div>
-                            <div class="blockG" id="rotateG_02"></div>
-                            <div class="blockG" id="rotateG_03"></div>
-                            <div class="blockG" id="rotateG_04"></div>
-                            <div class="blockG" id="rotateG_05"></div>
-                            <div class="blockG" id="rotateG_06"></div>
-                            <div class="blockG" id="rotateG_07"></div>
-                            <div class="blockG" id="rotateG_08"></div>
-                        </div>
-                    </div>
+
                     <div class="quiz" id="quiz5" data-toggle="buttons">
-                        <p id="correctAnswer5" style="display: none;">2</p>
+                        <p id="correctAnswer5" style="display: none;">1</p>
                         <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
@@ -640,22 +684,22 @@
                         <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                     class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                  name="q_answer"
-                                                                                                 value="3">3
+                                                                                                 value="4">3
                             I don't know</label>
                     </div>
                 </div>
             </div>
             <div class="modal-footer text-muted ">
+                <div class="row" style="padding: 10px 15px;">
+
+                        <span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>1</b>. <br/>It is necessary that all employer should be provide the prevention program to their employee because workplace violence has emerged as an important occupational safety and health issue in many industries, particular including the retail trade. Robbery prevention program will help you to dealing with those hazards if that happen.</span>
+                        <span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b> <br/>It is necessary that all employer should be provide the prevention program to their employee because workplace violence has emerged as an important occupational safety and health issue in many industries, particular including the retail trade. Robbery prevention program will help you to dealing with those hazards if that happen.</span>
+                        <span id="answer5K" style="float: left; text-align:justify;">The correct answer is <b>1</b>. <br/>It is necessary that all employer should be provide the prevention program to their employee because workplace violence has emerged as an important occupational safety and health issue in many industries, particular including the retail trade. Robbery prevention program will help you to dealing with those hazards if that happen.</span>
+
+                </div>
                 <div class="row">
-                    <div class="col-md-10">
-
-                        <span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: It is necessary that all employer should be provide the prevention program to their employee because workplace violence has emerged as an important occupational safety and health issue in many industries, particular including the retail trade. Robbery prevention program will help you to dealing with those hazards if that happen.</span>
-                        <span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: It is necessary that all employer should be provide the prevention program to their employee because workplace violence has emerged as an important occupational safety and health issue in many industries, particular including the retail trade. Robbery prevention program will help you to dealing with those hazards if that happen.</span>
-
-                    </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn btn-default btn-lg" id="finish">Finish</button>
-                    </div>
+                    <button type="button" class="btn btn-default btn-prev">Back</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

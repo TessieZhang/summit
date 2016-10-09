@@ -33,6 +33,8 @@
 
 
 
+
+
     <script src="js/bootstrap.min.js"></script>
     <!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
 
@@ -43,16 +45,16 @@
     <script type="text/javascript" src="js/dg-count-down.js"></script>
     <script type="text/javascript" src="js/dg-quiz-maker.js"></script>
     <!--script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script-->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/jquery.sequence-min.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/main-menu.js"></script>
-    <script src="js/template.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/i18n/defaults-*.min.js"></script>
-    <!--script type="text/javascript" src="http://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script-->
+    <!--script src="js/bootstrap.min.js"></script-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+    <!--script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.sequence-min.js"></script>
+    <script src="js/jquery.bxslider.js"></script-->
+    <script src="js/main-menu.js"></script>
+    <script src="js/template.js"></script>
+
     <base href="<?php echo base_url();?>" />
 
 </head>
@@ -101,6 +103,5 @@
 <script src="js/main-menu.js"></script>
 <script src="js/template.js"></script>
 <script src="js/modal.js"></script>
-
 </body>
 </html>

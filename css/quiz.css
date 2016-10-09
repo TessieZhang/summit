@@ -177,14 +177,14 @@
         .modal-body {
             min-height: 205px
         }
-
+/*
         #loadbar1 {
             position: absolute;
             width: 62px;
             height: 77px;
             top: 2em
         }
-
+*/
         #loadbar2 {
             position: absolute;
             width: 62px;
@@ -212,7 +212,7 @@
             height: 77px;
             top: 2em
         }
-
+/*
         .blockG {
             position: absolute;
             background-color: #FFF;
@@ -249,7 +249,7 @@
             animation-iteration-count: infinite;
             animation-direction: linear
         }
-
+*/
         #rotateG_01 {
             left: 0;
             top: 28px;

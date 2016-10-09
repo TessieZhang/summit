@@ -1,37 +1,34 @@
-
 $(document).ready(function () {
     var question;
-    var answer;
-    var occupation = document.getElementById("title").textContent;
+    //var answer;
 
 
-    //$('li#statistics').addClass('active');
-    //$('.li#"' + path + '"').parent().addClass('active');
 
     $("#myBtn1").click(function () {
+
         var chart = new CanvasJS.Chart("statistic1", {
             title: {
                 text: "Waiter salary"
             },
             exportEnabled: true,
             axisY: {
-                includeZero:false,
+                includeZero: false,
                 valueFormatString: "$ 0",
-                interval: 10,
+                interval: 10
             },
             axisX: {
-                interval:10
+                interval: 10
             },
             data: [
                 {
                     type: "rangeBar",
-                    showInLegend: true,
+
                     yValueFormatString: "$#0.##",
                     indexLabel: "{y[#index]}",
-                    legendText: "Min and Max Salary",
+
                     dataPoints: [
-                        {x: 10, y:[3.86, 35.70], label: "Overtime"},
-                        {x: 20, y:[15.02, 22.27], label: "Hourly Rate"},
+                        {x: 10, y: [0.00, 25.42], label: "Overtime Rate", indexLabelFontColor: "black" },
+                        {x: 20, y: [10.46, 20.73], label: "Hourly Rate", indexLabelFontColor: "black"},
                     ]
                 }
             ]
@@ -47,23 +44,21 @@ $(document).ready(function () {
             },
             exportEnabled: true,
             axisY: {
-                includeZero:false,
+                includeZero: false,
                 valueFormatString: "$ 0",
                 interval: 10,
             },
             axisX: {
-                interval:10
+                interval: 10
             },
             data: [
                 {
                     type: "rangeBar",
-                    showInLegend: true,
                     yValueFormatString: "$#0.##",
                     indexLabel: "{y[#index]}",
-                    legendText: "Min and Max Salary",
                     dataPoints: [
-                        {x: 10, y:[0.00, 33.32], label: "Overtime"},
-                        {x: 20, y:[15.05, 21.73], label: "Hourly Rate"},
+                        {x: 10, y: [0.00, 33.32], label: "Overtime", indexLabelFontColor: "black"},
+                        {x: 20, y: [15.05, 21.73], label: "Hourly Rate", indexLabelFontColor: "black"},
                     ]
                 }
             ]
@@ -89,13 +84,11 @@ $(document).ready(function () {
             data: [
                 {
                     type: "rangeBar",
-                    showInLegend: true,
                     yValueFormatString: "$#0.##",
                     indexLabel: "{y[#index]}",
-                    legendText: "Min and Max Salary",
                     dataPoints: [
-                        {x: 10, y: [3.86, 35.70], label: "Overtime"},
-                        {x: 20, y: [15.02, 22.72], label: "Hourly Rate"},
+                        {x: 10, y: [3.86, 35.70], label: "Overtime", indexLabelFontColor: "black"},
+                        {x: 20, y: [15.02, 22.72], label: "Hourly Rate", indexLabelFontColor: "black"},
                     ]
                 }
             ]
@@ -104,71 +97,66 @@ $(document).ready(function () {
         $("#salaryModal").modal();
     });
 
-        $("#myBtn1-warehouse").click(function () {
-            var chart = new CanvasJS.Chart("statistic1", {
-                title: {
-                    text: "Warehouse worker salary"
-                },
-                exportEnabled: true,
-                axisY: {
-                    includeZero: false,
-                    valueFormatString: "$ 0",
-                    interval: 10,
-                },
-                axisX: {
-                    interval: 10
-                },
-                data: [
-                    {
-                        type: "rangeBar",
-                        showInLegend: true,
-                        yValueFormatString: "$#0.##",
-                        indexLabel: "{y[#index]}",
-                        legendText: "Min and Max Salary",
-                        dataPoints: [
-                            {x: 10, y: [2.83, 40.09], label: "Overtime"},
-                            {x: 20, y: [16.83, 24.70], label: "Hourly Rate"},
-                        ]
-                    }
-                ]
-            });
-            chart.render();
-            $("#salaryModal").modal();
-
-        });
-
-            $("#myBtn1-driver").click(function () {
-                var chart = new CanvasJS.Chart("statistic1", {
-                    title: {
-                        text: "Delivery driver salary"
-                    },
-                    exportEnabled: true,
-                    axisY: {
-                        includeZero: false,
-                        valueFormatString: "$ 0",
-                        interval: 10,
-                    },
-                    axisX: {
-                        interval: 10
-                    },
-                    data: [
-                        {
-                            type: "rangeBar",
-                            showInLegend: true,
-                            yValueFormatString: "$#0.##",
-                            indexLabel: "{y[#index]}",
-                            legendText: "Min and Max Salary",
-                            dataPoints: [
-                                {x: 10, y: [17.81, 37.61], label: "Overtime"},
-                                {x: 20, y: [16.47, 24.64], label: "Hourly Rate"},
-                            ]
-                        }
+    $("#myBtn1-warehouse").click(function () {
+        var chart = new CanvasJS.Chart("statistic1", {
+            title: {
+                text: "Warehouse worker salary"
+            },
+            exportEnabled: true,
+            axisY: {
+                includeZero: false,
+                valueFormatString: "$ 0",
+                interval: 10,
+            },
+            axisX: {
+                interval: 10
+            },
+            data: [
+                {
+                    type: "rangeBar",
+                    yValueFormatString: "$#0.##",
+                    indexLabel: "{y[#index]}",
+                    dataPoints: [
+                        {x: 10, y: [2.83, 40.09], label: "Overtime", indexLabelFontColor: "black"},
+                        {x: 20, y: [16.83, 24.70], label: "Hourly Rate", indexLabelFontColor: "black"},
                     ]
-                });
-                chart.render();
-                $("#salaryModal").modal();
-            });
+                }
+            ]
+        });
+        chart.render();
+        $("#salaryModal").modal();
 
+    });
+
+    $("#myBtn1-driver").click(function () {
+        var chart = new CanvasJS.Chart("statistic1", {
+            title: {
+                text: "Delivery driver salary"
+            },
+            exportEnabled: true,
+            axisY: {
+                includeZero: false,
+                valueFormatString: "$ 0",
+                interval: 10,
+            },
+            axisX: {
+                interval: 10
+            },
+            data: [
+                {
+                    type: "rangeBar",
+                    yValueFormatString: "$#0.##",
+                    indexLabel: "{y[#index]}",
+                    dataPoints: [
+                        {x: 10, y: [17.81, 37.61], label: "Overtime", indexLabelFontColor: "black"},
+                        {x: 20, y: [16.47, 24.64], label: "Hourly Rate", indexLabelFontColor: "black"},
+                    ]
+                }
+            ]
+        });
+        chart.render();
+        $("#salaryModal").modal();
+    });
 
     $("#myBtn1-cleaner").click(function () {
         var chart = new CanvasJS.Chart("statistic1", {
@@ -187,13 +175,11 @@ $(document).ready(function () {
             data: [
                 {
                     type: "rangeBar",
-                    showInLegend: true,
                     yValueFormatString: "$#0.##",
                     indexLabel: "{y[#index]}",
-                    legendText: "Min and Max Salary",
                     dataPoints: [
-                        {x: 10, y: [0.00, 39.27], label: "Overtime"},
-                        {x: 20, y: [16.75, 25.12], label: "Hourly Rate"},
+                        {x: 10, y: [0.00, 39.27], label: "Overtime", indexLabelFontColor: "black"},
+                        {x: 20, y: [16.75, 25.12], label: "Hourly Rate", indexLabelFontColor: "black"},
                     ]
                 }
             ]
@@ -201,15 +187,15 @@ $(document).ready(function () {
         chart.render();
         $("#salaryModal").modal();
     });
+
     $("#myBtn2").click(function () {
         question = 1;
-        answer = document.getElementById("correctAnswer1").textContent;
         $('#answer1I').hide();
         $('#answer1C').hide();
-
+        $('#answer1K').hide();
         $("#myModal1").modal();
     });
-
+/*
     $("#myBtn3").click(function () {
         question = 2;
         answer = document.getElementById("correctAnswer2").textContent;
@@ -246,10 +232,7 @@ $(document).ready(function () {
         $("#myModal4").modal('hide');
     });
 
-    $("#finish").click(function () {
-        $("#myModal5").modal('hide');
-    });
-
+*/
     $("#finish1").click(function () {
         $("#myModal2").modal('hide');
     });
@@ -262,108 +245,112 @@ $(document).ready(function () {
         $("#salaryModal").modal('hide');
     });
 
-    $(function () {
-        var loading1 = $('#loadbar1').hide();
-        var loading2 = $('#loadbar2').hide();
-        var loading3 = $('#loadbar3').hide();
-        var loading4 = $('#loadbar4').hide();
-        var loading5 = $('#loadbar5').hide();
+    $("div[id^='myModal']").each(function(){
 
+        var currentModal = $(this);
+        $("span[id^='answer']").hide();
 
+        question = 1;
+        //click next
+        currentModal.find('.btn-next').click(function(){
+            currentModal.modal('hide');
+            currentModal.closest("div[id^='myModal']").nextAll("div[id^='myModal']").first().modal('show');
 
-        $(document)
-            .ajaxStart(function () {
-                loading1.show();
-                loading2.show();
-                loading3.show();
-                loading4.show();
-                loading5.show();
-            }).ajaxStop(function () {
-            loading1.hide();
-            loading2.hide();
-            loading3.hide();
-            loading4.hide();
-            loading5.hide();
+            question = question + 1;
+
         });
+
+        //click prev
+        currentModal.find('.btn-prev').click(function(){
+            currentModal.modal('hide');
+            currentModal.closest("div[id^='myModal']").prevAll("div[id^='myModal']").first().modal('show');
+            question = question -1;
+        });
+
+    });
+
+    $(function () {
 
         $("label.btn").on('click', function () {
 
-            $('#answer1I').hide();
-            $('#answer1C').hide();
-            $('#answer2I').hide();
-            $('#answer2C').hide();
-            $('#answer3I').hide();
-            $('#answer3C').hide();
-            $('#answer4I').hide();
-            $('#answer4C').hide();
-            $('#answer5I').hide();
-            $('#answer5C').hide();
+            $("span[id^='answer']").hide();
             var choice = $(this).find('input:radio').val();
+
             switch (question) {
                 case 1 :
-                    $('#loadbar1').show();
-                    $('#quiz1').fadeOut();
+                    var answer = document.getElementById("correctAnswer1").textContent;
                     setTimeout(function () {
-                        if (checking(choice,answer)) {
+                        if (choice == answer) {
                             $('#answer1C').show();
                         } else {
-                            $('#answer1I').show();
+                            if (choice == 4) {
+                                $('#answer1K').show();
+                            } else {
+                                $('#answer1I').show();
+                            }
                         }
                         $('#quiz1').show();
-                        $('#loadbar1').fadeOut();
-                    }, 1500);
+                    }, 500);
                     break;
                 case 2 :
-                    $('#loadbar2').show();
-                    $('#quiz2').fadeOut();
+                    var answer = document.getElementById("correctAnswer2").textContent;
                     setTimeout(function () {
-                        if (checking(choice,answer)) {
+                        if (choice == answer) {
                             $('#answer2C').show();
                         } else {
-                            $('#answer2I').show();
+                            if (choice == 4) {
+                                $('#answer2K').show();
+                            } else {
+                                $('#answer2I').show();
+                            }
                         }
                         $('#quiz2').show();
-                        $('#loadbar2').fadeOut();
-                    }, 1500);
+                    }, 500);
                     break;
                 case 3 :
-                    $('#loadbar3').show();
-                    $('#quiz3').fadeOut();
+                    var answer = document.getElementById("correctAnswer3").textContent;
                     setTimeout(function () {
-                        if (checking(choice,answer)) {
+                        if (choice == answer) {
                             $('#answer3C').show();
                         } else {
-                            $('#answer3I').show();
+                            if (choice == 4) {
+                                $('#answer3K').show();
+                            } else {
+                                $('#answer3I').show();
+                            }
                         }
                         $('#quiz3').show();
-                        $('#loadbar3').fadeOut();
-                    }, 1500);
+                    }, 500);
                     break;
                 case 4 :
-                    $('#loadbar4').show();
-                    $('#quiz4').fadeOut();
+                    var answer = document.getElementById("correctAnswer4").textContent;
                     setTimeout(function () {
-                        if (checking(choice,answer)) {
+                        if (choice == answer) {
                             $('#answer4C').show();
                         } else {
-                            $('#answer4I').show();
+                            if (choice == 4) {
+                                $('#answer4K').show();
+                            } else {
+                                $('#answer4I').show();
+                            }
                         }
                         $('#quiz4').show();
-                        $('#loadbar4').fadeOut();
-                    }, 1500);
+                    }, 500);
                     break;
                 case 5 :
-                    $('#loadbar5').show();
-                    $('#quiz5').fadeOut();
+                    var answer = document.getElementById("correctAnswer5").textContent;
                     setTimeout(function () {
-                        if (checking(choice,answer)) {
+                        if (choice == answer) {
                             $('#answer5C').show();
                         } else {
-                            $('#answer5I').show();
+                            if (choice == 4) {
+                                $('#answer5K').show();
+                            } else {
+                                $('#answer5I').show();
+                            }
                         }
                         $('#quiz5').show();
-                        $('#loadbar5').fadeOut();
-                    }, 1500);
+                    }, 500);
                     break;
             }
 
@@ -410,6 +397,8 @@ function chartGraph(a) {
             data: [
                 {
                     type: "line",
+                    showInLegend: true,
+                    name: "Value of current job" ,
                     dataPoints: [
                         {x: new Date(year1, 0), y: Number(num_claims1)},
                         {x: new Date(year2, 0), y: Number(num_claims2)},
@@ -418,7 +407,7 @@ function chartGraph(a) {
                 }, {
                     type: "line",
                     showInLegend: true,
-                    name: "Average value",
+                    name: "Average value of all six part-time jobs",
                     //lineThickness: 3,
                     dataPoints: [
                         {x: new Date(2009, 0), y: 1506},

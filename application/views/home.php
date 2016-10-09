@@ -63,7 +63,7 @@
 
 <div class="section">
     <div class="container">
-        <h2>Work Category</h2>
+        <h2>Explore a Job</h2>
         <p>Prevention is the best intervention. In order to avoid and mitigate the risk of injury, you should beware
             your surrounding areas and ensure you’ve got enough knowledge of dealing with injury.
             Moreover, the best common method that prevents injury may not be what you expect. Safe Work Australia are
@@ -112,7 +112,7 @@
                     </div>
                     <div class="portfolio-info">
                         <ul>
-                            <li class="portfolio-project-name">Convenient Store Worker</li>
+                            <li class="portfolio-project-name">Convenience Store Worker</li>
                             <li class="read-more"><a href="<?php echo site_url('Welcome/newPage/convenience-store-worker'); ?>"
                                                      class="btn">Read more</a></li>
                         </ul>

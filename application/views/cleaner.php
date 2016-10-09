@@ -43,32 +43,33 @@
                 <div class="col-sm-6">
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <a href="#"><img src="img/cleaner.png" alt="Project Name"></a>
+                           <img src="img/cleaner.png" alt="Project Name">
                         </div>
                     </div>
                 </div>
                 <!-- End Image Column -->
                 <!-- Project Info Column -->
                 <div class="portfolio-item-description col-sm-6" style="text-align:justify;">
-                    <h3>Cleaner Description</h3>
-                    <p>
+                    <h3>Cleaner</h3>
+                    <p style="text-align: justify">
                         A cleaner is a type of industrial or domestic worker who cleans homes or commercial premises for
                         payment. Cleaners may specialise in cleaning particular things or places, such as window cleaners.
                         Cleaners often work when the people who otherwise occupy the space are not around. They may clean
                         offices at night or houses during the workday.
                     </p>
-                    <p>
+                    <p style="text-align: justify">
                         Manual handling tasks are part of the job for cleaners, but in certain circumstances they can be
                         hazardous and cause injuries. Employers must take action to eliminate or reduce the risk of manual
                         handling activities being hazardous to workers, usually by modifying the way a task is performed, or
-                        by providing aids and equipment that make tasks safer.
+                        by providing aids and equipment that make tasks safer. To compare the safe situation with other six
+                        part-time jobs, click the button 'statistic' to see details.
                     </p>
                     <ul class="no-list-style">
 
                         <!--li class="portfolio-visit-btn"><a href="http://localhost/project/prevent-injury.php" class="btn">Visit More Jobs</a></li-->
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn">Statistic</button>
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn1-cleaner">Wage</button>
-                        <button type="button" class="btn btn-default btn-lg" id="myBtn2">self-evaluation</button>
+                        <button type="button" class="btn btn-default btn-lg" id="myBtn">Statistics</button>
+                        <button type="button" class="btn btn-default btn-lg" id="myBtn1-cleaner">Wages</button>
+                        <button type="button" class="btn btn-default btn-lg" id="myBtn2">Self-evaluation</button>
                     </ul>
                 </div>
                 <!-- End Project Info Column -->
@@ -78,7 +79,7 @@
                     <div class="row">
                         <div class="col-md-12 faq-wrapper">
                             <div class="panel-group" id="accordion2">
-                                <h3>Potential Hazard</h3>
+                                <h3>Common Situation</h3>
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
@@ -197,7 +198,7 @@
                                     </div>
 
                                 </div>
-                                <h3>How To Deal With Hazards which caused by repetitive work</h3>
+                                <h3>High-risk Situation</h3>
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
@@ -337,7 +338,7 @@
                 </div>
             </div>
             <!-- Related Projects -->
-            <h3>Related Injury</h3>
+            <h3>Treatment of Related Injury</h3>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="portfolio-item">
@@ -373,19 +374,39 @@
     </div>
 
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
+        <div class="modal-dialog" style="width: 550px">
             <!-- Modal content-->
-            <button type=”button” class=”close” id="close" data-trigger="hover"><span>&times;</span></button>
-            <div class="modal-content" style="height:450px; width:510px;" id="statistic">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div style="height:400px; width:500px;" id="statistic">
+                    </div>
+                </div>
+                <div class="modal-footer text-muted ">
+                    <div class="row">
+                        <a href="<?php echo site_url('Welcome/newPage/statistics'); ?>" class="btn btn-default" >
+                            More Statistic Details
+                        </a>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
 
     <div class="modal fade" id="salaryModal" role="dialog">
-        <div class="modal-dialog">
+        <div class="modal-dialog" style="width: 550px">
             <!-- Modal content-->
-            <button type=”button” class=”close” id="close1" data-trigger="hover"><span>&times;</span></button>
-            <div class="modal-content" style="height:450px; width:510px;" id="statistic1">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div style="height:400px; width:500px;" id="statistic1">
+                    </div>
+                </div>
+                <div class="modal-footer text-muted ">
+                    <div class="row">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -400,18 +421,7 @@
                 </div>
                 <div class="modal-body">
                     <div id="Q1">
-                        <div class="col-xs-3 col-xs-offset-5">
-                            <div id="loadbar1" style="display: none;">
-                                <div class="blockG" id="rotateG_01"></div>
-                                <div class="blockG" id="rotateG_02"></div>
-                                <div class="blockG" id="rotateG_03"></div>
-                                <div class="blockG" id="rotateG_04"></div>
-                                <div class="blockG" id="rotateG_05"></div>
-                                <div class="blockG" id="rotateG_06"></div>
-                                <div class="blockG" id="rotateG_07"></div>
-                                <div class="blockG" id="rotateG_08"></div>
-                            </div>
-                        </div>
+
                         <div class="quiz" id="quiz1" data-toggle="buttons">
                             <p id="correctAnswer1" style="display: none;">2</p>
                             <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -437,16 +447,16 @@
                     </div>
                 </div>
                 <div class="modal-footer text-muted ">
+                    <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/> It is best to conduct safety orientation programs for the employees when they are first hired. Prior knowledge of hazards is the best preventive measure. For old employees, regular training sessions can be conducted to encourage safety, and whenever new products are introduced.	</span>
+                            <span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> <br/> It is best to conduct safety orientation programs for the employees when they are first hired. Prior knowledge of hazards is the best preventive measure. For old employees, regular training sessions can be conducted to encourage safety, and whenever new products are introduced.	</span>
+                            <span id="answer1K" style="float: left; text-align:justify;">The correct answer is <b>2</b>. <br/> It is best to conduct safety orientation programs for the employees when they are first hired. Prior knowledge of hazards is the best preventive measure. For old employees, regular training sessions can be conducted to encourage safety, and whenever new products are introduced.	</span>
+
+                    </div>
                     <div class="row">
-                        <div class="col-md-10">
-
-    <span id="answer1I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: It is best to conduct safety orientation programs for the employees when they are first hired. Prior knowledge of hazards is the best preventive measure. For old employees, regular training sessions can be conducted to encourage safety, and whenever new products are introduced.	</span>
-                            <span id="answer1C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: It is best to conduct safety orientation programs for the employees when they are first hired. Prior knowledge of hazards is the best preventive measure. For old employees, regular training sessions can be conducted to encourage safety, and whenever new products are introduced.	</span>
-
-                        </div>
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-default btn-lg" id="myBtn3">Next</button>
-                        </div>
+                        <button type="button" class="btn btn-default btn-next">Next</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -462,18 +472,7 @@
                 </div>
                 <div class="modal-body">
                     <div id="Q1">
-                        <div class="col-xs-3 col-xs-offset-5">
-                            <div id="loadbar2" style="display: none;">
-                                <div class="blockG" id="rotateG_01"></div>
-                                <div class="blockG" id="rotateG_02"></div>
-                                <div class="blockG" id="rotateG_03"></div>
-                                <div class="blockG" id="rotateG_04"></div>
-                                <div class="blockG" id="rotateG_05"></div>
-                                <div class="blockG" id="rotateG_06"></div>
-                                <div class="blockG" id="rotateG_07"></div>
-                                <div class="blockG" id="rotateG_08"></div>
-                            </div>
-                        </div>
+
                         <div class="quiz" id="quiz2" data-toggle="buttons">
                             <p id="correctAnswer2" style="display: none;">3</p>
                             <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -501,18 +500,20 @@
                     </div>
                 </div>
                 <div class="modal-footer text-muted ">
-                    <div class="row">
-                        <div class="col-md-10">
+                    <div class="row" style="padding: 10px 15px;">
 
-    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Reaching out or stretching repeatedly may cause pain and stiffness in the shoulders, neck, back and arms. Though it’s impossible to reach surfaces at a height while keeping the arms at your sides, it is essential for ergonomic safety to avoid stretching beyond the recommended limit. Instead, tools such as lightweight extension rods and long-handled mop poles should be employed to reach the required areas.
+    <span id="answer2I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>3</b>. <br/> Reaching out or stretching repeatedly may cause pain and stiffness in the shoulders, neck, back and arms. Though it’s impossible to reach surfaces at a height while keeping the arms at your sides, it is essential for ergonomic safety to avoid stretching beyond the recommended limit. Instead, tools such as lightweight extension rods and long-handled mop poles should be employed to reach the required areas.
 		</span>
-                            <span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Reaching out or stretching repeatedly may cause pain and stiffness in the shoulders, neck, back and arms. Though it’s impossible to reach surfaces at a height while keeping the arms at your sides, it is essential for ergonomic safety to avoid stretching beyond the recommended limit. Instead, tools such as lightweight extension rods and long-handled mop poles should be employed to reach the required areas.
+                            <span id="answer2C" style="float: left; text-align:justify;"><b>Correct!</b> <br /> Reaching out or stretching repeatedly may cause pain and stiffness in the shoulders, neck, back and arms. Though it’s impossible to reach surfaces at a height while keeping the arms at your sides, it is essential for ergonomic safety to avoid stretching beyond the recommended limit. Instead, tools such as lightweight extension rods and long-handled mop poles should be employed to reach the required areas.
 	</span>
+                            <span id="answer2K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/> Reaching out or stretching repeatedly may cause pain and stiffness in the shoulders, neck, back and arms. Though it’s impossible to reach surfaces at a height while keeping the arms at your sides, it is essential for ergonomic safety to avoid stretching beyond the recommended limit. Instead, tools such as lightweight extension rods and long-handled mop poles should be employed to reach the required areas.
+		</span>
 
-                        </div>
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-default btn-lg" id="myBtn4">Next</button>
-                        </div>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-default btn-prev">Back</button>
+                        <button type="button" class="btn btn-default btn-next">Next</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -528,18 +529,7 @@
                 </div>
                 <div class="modal-body">
                     <div id="Q1">
-                        <div class="col-xs-3 col-xs-offset-5">
-                            <div id="loadbar3" style="display: none;">
-                                <div class="blockG" id="rotateG_01"></div>
-                                <div class="blockG" id="rotateG_02"></div>
-                                <div class="blockG" id="rotateG_03"></div>
-                                <div class="blockG" id="rotateG_04"></div>
-                                <div class="blockG" id="rotateG_05"></div>
-                                <div class="blockG" id="rotateG_06"></div>
-                                <div class="blockG" id="rotateG_07"></div>
-                                <div class="blockG" id="rotateG_08"></div>
-                            </div>
-                        </div>
+
                         <div class="quiz" id="quiz3" data-toggle="buttons">
                             <p id="correctAnswer3" style="display: none;">2</p>
                             <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -556,22 +546,23 @@
                             <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                         class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                      name="q_answer"
-                                                                                                     value="3">3
+                                                                                                     value="4">3
                                 I don't know</label>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer text-muted ">
+                    <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/>It is the employer’s duty to provide all necessary PPE to the cleaning staff free of charge. Face shields, goggles, gloves, aprons, safety shoes, and glasses are all part of PPE. In some cases, respiratory protection, which calls for additional training, may also be required.</span>
+                            <span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> <br /> It is the employer’s duty to provide all necessary PPE to the cleaning staff free of charge. Face shields, goggles, gloves, aprons, safety shoes, and glasses are all part of PPE. In some cases, respiratory protection, which calls for additional training, may also be required.</span>
+                            <span id="answer3K" style="float: left; text-align:justify;">The correct answer is <b>2</b>. <br/>It is the employer’s duty to provide all necessary PPE to the cleaning staff free of charge. Face shields, goggles, gloves, aprons, safety shoes, and glasses are all part of PPE. In some cases, respiratory protection, which calls for additional training, may also be required.</span>
+
+                    </div>
                     <div class="row">
-                        <div class="col-md-10">
-
-    <span id="answer3I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: It is the employer’s duty to provide all necessary PPE to the cleaning staff free of charge. Face shields, goggles, gloves, aprons, safety shoes, and glasses are all part of PPE. In some cases, respiratory protection, which calls for additional training, may also be required.</span>
-                            <span id="answer3C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: It is the employer’s duty to provide all necessary PPE to the cleaning staff free of charge. Face shields, goggles, gloves, aprons, safety shoes, and glasses are all part of PPE. In some cases, respiratory protection, which calls for additional training, may also be required.</span>
-
-                        </div>
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-default btn-lg" id="myBtn5">Next</button>
-                        </div>
+                        <button type="button" class="btn btn-default btn-prev">Back</button>
+                        <button type="button" class="btn btn-default btn-next">Next</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -587,18 +578,7 @@
                 </div>
                 <div class="modal-body">
                     <div id="Q1">
-                        <div class="col-xs-3 col-xs-offset-5">
-                            <div id="loadbar4" style="display: none;">
-                                <div class="blockG" id="rotateG_01"></div>
-                                <div class="blockG" id="rotateG_02"></div>
-                                <div class="blockG" id="rotateG_03"></div>
-                                <div class="blockG" id="rotateG_04"></div>
-                                <div class="blockG" id="rotateG_05"></div>
-                                <div class="blockG" id="rotateG_06"></div>
-                                <div class="blockG" id="rotateG_07"></div>
-                                <div class="blockG" id="rotateG_08"></div>
-                            </div>
-                        </div>
+
                         <div class="quiz" id="quiz4" data-toggle="buttons">
                             <p id="correctAnswer4" style="display: none;">2</p>
                             <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -615,24 +595,26 @@
                             <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
                                         class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio"
                                                                                                      name="q_answer"
-                                                                                                     value="3">3
+                                                                                                     value="4">3
                                 I don't know</label>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer text-muted ">
+                    <div class="row" style="padding: 10px 15px;">
+
+    <span id="answer4I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>2</b>. <br/> Mixing chemicals (unless specifically stated on the product) can be potentially dangerous for the cleaning staff and others exposed to these chemicals. They can release explosive or toxic fumes which can be harmful. For example, mixing bleach with a cleaning product containing ammonia releases lung-irritating toxic gases.
+		</span>
+                            <span id="answer4C" style="float: left; text-align:justify;"><b>Correct!</b> <br/>Mixing chemicals (unless specifically stated on the product) can be potentially dangerous for the cleaning staff and others exposed to these chemicals. They can release explosive or toxic fumes which can be harmful. For example, mixing bleach with a cleaning product containing ammonia releases lung-irritating toxic gases.
+		</span>
+                        <span id="answer4K" style="float: left; text-align:justify;">The correct answer is <b>2</b>. <br/> Mixing chemicals (unless specifically stated on the product) can be potentially dangerous for the cleaning staff and others exposed to these chemicals. They can release explosive or toxic fumes which can be harmful. For example, mixing bleach with a cleaning product containing ammonia releases lung-irritating toxic gases.
+		</span>
+
+                    </div>
                     <div class="row">
-                        <div class="col-md-10">
-
-    <span id="answer4I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: Mixing chemicals (unless specifically stated on the product) can be potentially dangerous for the cleaning staff and others exposed to these chemicals. They can release explosive or toxic fumes which can be harmful. For example, mixing bleach with a cleaning product containing ammonia releases lung-irritating toxic gases.
-		</span>
-                            <span id="answer4C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: Mixing chemicals (unless specifically stated on the product) can be potentially dangerous for the cleaning staff and others exposed to these chemicals. They can release explosive or toxic fumes which can be harmful. For example, mixing bleach with a cleaning product containing ammonia releases lung-irritating toxic gases.
-		</span>
-
-                        </div>
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-default btn-lg" id="myBtn6">Next</button>
-                        </div>
+                        <button type="button" class="btn btn-default btn-prev">Back</button>
+                        <button type="button" class="btn btn-default btn-next">Next</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -648,18 +630,7 @@
                 </div>
                 <div class="modal-body">
                     <div id="Q1">
-                        <div class="col-xs-3 col-xs-offset-5">
-                            <div id="loadbar5" style="display: none;">
-                                <div class="blockG" id="rotateG_01"></div>
-                                <div class="blockG" id="rotateG_02"></div>
-                                <div class="blockG" id="rotateG_03"></div>
-                                <div class="blockG" id="rotateG_04"></div>
-                                <div class="blockG" id="rotateG_05"></div>
-                                <div class="blockG" id="rotateG_06"></div>
-                                <div class="blockG" id="rotateG_07"></div>
-                                <div class="blockG" id="rotateG_08"></div>
-                            </div>
-                        </div>
+
                         <div class="quiz" id="quiz5" data-toggle="buttons">
                             <p id="correctAnswer5" style="display: none;">3</p>
                             <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i
@@ -688,16 +659,16 @@
                     </div>
                 </div>
                 <div class="modal-footer text-muted ">
+                    <div class="row" style="padding: 10px 15px;">
+
+                            <span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> The correct answer is <b>3</b>. <br/>It’s not just common sense, it’s law that an employer must inform and train employees, including cleaning staff, about the presence and use of hazardous chemicals. SDSs, signs, and labels must be made available at all times to help workers prepare for any emergency. Employing innovative equipment like dispensing stations that mix chemicals in the proper amounts to eliminate contact risks is a good practice.</span>
+                            <span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b><br/>It’s not just common sense, it’s law that an employer must inform and train employees, including cleaning staff, about the presence and use of hazardous chemicals. SDSs, signs, and labels must be made available at all times to help workers prepare for any emergency. Employing innovative equipment like dispensing stations that mix chemicals in the proper amounts to eliminate contact risks is a good practice..</span>
+                            <span id="answer5K" style="float: left; text-align:justify;">The correct answer is <b>3</b>. <br/>It’s not just common sense, it’s law that an employer must inform and train employees, including cleaning staff, about the presence and use of hazardous chemicals. SDSs, signs, and labels must be made available at all times to help workers prepare for any emergency. Employing innovative equipment like dispensing stations that mix chemicals in the proper amounts to eliminate contact risks is a good practice.</span>
+
+                    </div>
                     <div class="row">
-                        <div class="col-md-10">
-
-                            <span id="answer5I" style="float: left; text-align:justify;"><b>Incorrect!</b> Explanation: It’s not just common sense, it’s law that an employer must inform and train employees, including cleaning staff, about the presence and use of hazardous chemicals. SDSs, signs, and labels must be made available at all times to help workers prepare for any emergency. Employing innovative equipment like dispensing stations that mix chemicals in the proper amounts to eliminate contact risks is a good practice.</span>
-                            <span id="answer5C" style="float: left; text-align:justify;"><b>Correct!</b> Explanation: It’s not just common sense, it’s law that an employer must inform and train employees, including cleaning staff, about the presence and use of hazardous chemicals. SDSs, signs, and labels must be made available at all times to help workers prepare for any emergency. Employing innovative equipment like dispensing stations that mix chemicals in the proper amounts to eliminate contact risks is a good practice..</span>
-
-                        </div>
-                        <div class="col-md-2">
-                            <button type="button" class="btn btn-default btn-lg" id="finish">Finish</button>
-                        </div>
+                        <button type="button" class="btn btn-default btn-prev">Back</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>

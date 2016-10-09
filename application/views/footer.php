@@ -32,6 +32,7 @@
 
 
 
+    <script src="js/bootstrap.min.js"></script>
     <!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
 
     <script type="text/javascript" src="http://canvasjs.com/assets/script/jquery-ui.1.11.2.min.js"></script>
@@ -39,19 +40,17 @@
 
     <!--script type="text/javascript" src="js/external/mootools-core-1.4.5-minified.js"></script>
     <script type="text/javascript" src="js/dg-count-down.js"></script>
-    <!--script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+    <script type="text/javascript" src="js/dg-quiz-maker.js"></script>
     <!--script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script-->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/jquery.sequence-min.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/main-menu.js"></script>
-    <script src="js/template.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/i18n/defaults-*.min.js"></script>
-    <!--script type="text/javascript" src="http://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script-->
+    <!--script src="js/bootstrap.min.js"></script-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+    <!--script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.sequence-min.js"></script>
+    <script src="js/jquery.bxslider.js"></script-->
+    <script src="js/main-menu.js"></script>
+    <script src="js/template.js"></script>
     <base href="<?php echo base_url();?>" />
 </head>
 <div class="footer">
@@ -72,7 +71,6 @@
                 <p class="contact-us-details">
                     <b>Address:</b>900 Dandenong Rd, Caulfield East 3145, Melbourne, VIC<br/>
                     <b>Phone:</b>(03) 9903 2000<br/>
-                    <b>Email:</b> <a href="mailto:wjtshitc@gmail.com">wjtshitc@gmail.com</a>
                 </p>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -94,10 +92,8 @@
     </div>
 
 <!-- Javascripts -->
-
 <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
-
 <script src="js/bootstrap.min.js"></script>
 <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
 <script src="js/jquery.fitvids.js"></script>
@@ -105,7 +101,6 @@
 <script src="js/jquery.bxslider.js"></script>
 <script src="js/main-menu.js"></script>
 <script src="js/template.js"></script>
-
-
+<script src="js/modal.js"></script>
 </body>
 </html>
